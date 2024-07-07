@@ -1,2 +1,10 @@
 User-agent: *
 Disallow: /assets/
+Disallow: /*.pdf$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.ico$
+Disallow: /*.webp$
+Disallow: /*.jpeg$
+Disallow: /*.svg$
+Disallow: /*.mp4$
