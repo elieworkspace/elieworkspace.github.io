@@ -8,14 +8,14 @@
     <meta name="robots" content="noimageindex">
     <meta name="author" content="Elie">
     <title>Portfolio</title>
-    <!-- font icons -->
+
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/logo3.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/logo3.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/logo3.png" />
-    <!-- Bootstrap + x1 main styles -->
+
     <link rel="stylesheet" href="assets/css/x1.css">
 
     <style>
@@ -36,7 +36,6 @@
             border: 3px solid #695aa6;
             border-radius: 8px;
             padding: 10px;
-            /* width: 80% !important; */
 
         }
     </style>
@@ -45,989 +44,1208 @@
 
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">&#1488;|&#1488;</a>
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#maison">Maison</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#profil">Profil</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#alternance">Alternance</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#parcours">Parcours</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#entreprise">Entreprise</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#projets">Projets</a>
-                </li>
+<!-- data-spy="scroll" data-target=".navbar" data-offset="40" -->
 
-                <li class="item">
-                    <a class="link" href="#missions">Missions</a>
-                </li>
-
-
-                <li class="item ml-md-3">
-                    <a href="#contact" class="btn btn-primary">Contact</a>
-                </li>
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </a>
+<body id="home">
+    <div id="passkey" class="container mt-3 text-center">
+        <div class="alert alert-primary" role="alert">
+            Pour visiter ce site, entrez votre clé de chiffrement.
         </div>
-    </nav><!-- End of Page Navbar -->
-
-    <!-- page header -->
-    <!-- <header id="maison" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">Elie E</span>
-                <span style="font-size: xx-large;" class="down" id="element"></span>
-            </h1>
-            <p class="header-subtitle"><i>Junior Cybersecurity Analyst</i></p>
+        <div id="alert">
 
         </div>
-    </header>
-    
-    -->
-    <header id="maison" class="header">
-        <video autoplay muted loop id="background-video">
-            <source src="assets/video/header.mp4" type="video/mp4">
-            Votre navigateur ne supporte pas les vidéos HTML5.
-        </video>
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">Elie E.</span>
-                <span style="font-size: xx-large;" class="down" id="element">Cur</span><span class="typed-cursor" aria-hidden="true">|</span>
-            </h1>
-            <p class="header-subtitle"><i>Junior Cybersecurity Analyst</i></p>
-        </div>
-    </header>
-    
-    <!-- end of page header -->
-
-    <!-- profil section -->
-    <section class="section pt-0" id="profil">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about" style="padding-top: 50px;">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/pdp2.jpeg" style="border-radius: 50%;max-width: 80%;" class="about-img"
-                        alt="#" data-nosnippet>
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Qui suis-je ?</p>
-                    <h2 class="section-title mb-3">Mon profil</h2>
-                    <p>
-                        Étudiant en alternance à l'école ORT-Montreuil en BTS (Service Informatique aux Organisations),
-                        je me suis spécialisé au cours de ma première année d'études en option SLAM (Solutions
-                        logicielles et Applications Métiers).
-                        <br>En parallèle, je travaille chez ALTEN, une entreprise dont la principale activité est basée
-                        autour de l'ingénierie et des services de technologie de l'information.
-                    </p>
-
-                    <div>
-
-                    </div>
-                    <a href="assets/docs/cv.pdf" target="_blank">
-                        <button class="btn-rounded btn btn-outline-primary mt-4">Voir mon CV <i
-                                class="ti-arrow-top-right"></i></button>
-                    </a>
-                </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section>
-    <!-- end of profil section -->
-
-    <!-- Mon alternance -->
-    <section class="section" id="alternance">
-        <div class="container">
-            <p class="section-subtitle">Mon centre de formation & mon entreprise.</p>
-            <h6 class="section-title mb-6">Mon Alternance</h6>
-
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/ort-logo.png" class="testimonial-card-img" alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <p class="testimonial-card-subtitle">
-                                À l'école ORT, en BTS informatique option SLAM, j'ai appris à développer et à maintenir des solutions logicielles tout en respectant les contraintes légales et stratégiques.
-                            </p>
-                            <h6 class="testimonial-card-title"><a href="https://ort-france.fr/montreuil"
-                                    target="_blank">ORT | Montreuil</a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/altenlogo.jpg" class="testimonial-card-img" alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <p class="testimonial-card-subtitle">
-                                Chez Alten, en cybersécurité, je supervise la conception, l'implémentation, la maintenance et la documentation de projets visant à automatiser les tâches de sécurité informatique.</p>
-                            <h6 class="testimonial-card-title"><a href="https://www.alten.fr/" target="_blank">Alten |
-                                    Boulogne-Billancourt</a></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section>
-    <!-- end of alternance section -->
-
-
-    <!-- Mon parcours -->
-    <section class="section border" id="parcours">
-        <div class="container">
-            <p class="section-subtitle">Mon évolution en tant qu'étudiant et personnellement.</p>
-            <h6 class="section-title mb-6">Parcours</h6>
-           
-
-
-            <ul class="ul-circles">
-                <li style="--accent-color:#FF5733"><i class="fa-brands fa-codepen"></i><a href="#formation">
-                        <h5><strong style="color: #FF5733;">Formation</strong></h5>
-                    </a></li>
-                <li style="--accent-color:#4A90E2"><i class="fa-brands fa-html5"></i><a href="#personel">
-                        <h5><strong style="color: #4A90E2;">Personnel</strong></h5>
-                    </a></li>
-                <li style="--accent-color: #00c429;"><i class="fa-brands fa-css3"></i><a href="#certification">
-                        <h5><strong style="color: #00c429;">Certifications</strong></h5>
-                    </a></li>
-            </ul>
-
-
-            <div class="blog-card mb-2 c2-w"  id="formation">
-                
-                
-                <div class="blog-card-body">
-                    <h2><strong style="color: #FF5733;">Formation</strong></h2>
-                    <h5 class="blog-card-title">Mon parcours depuis l'école jusqu'à maintenant.</h5>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="main-timeline">
-                                    <div class="timeline">
-                                        <div class="timeline-icon"><span class="year">2020</span></div>
-                                        <div class="timeline-content">
-                                            <h3 class="title">Baccalauréat | Merkaz Hatorah</h3>
-                                            <p class="description">
-                                                Baccalauréat Général - scientifique option physique chimie, mention
-                                                bien.
-
-                                            </p>
-                                            
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="timeline">
-                                        <div class="timeline-icon"><span class="year">21-22</span></div>
-                                        <div class="timeline-content">
-                                            <h3 class="title">Étude Talmudique | Beth Halevy</h3>
-                                            <p class="description">
-                                                Étude biblique & talmudique à l'étranger.
-                                            </p>
-                                            <div
-                                                style="margin-top: 10px; background: white; padding: 10px; border-radius: 7px; display: flex; justify-content: center; align-items: center;">
-                                                <img src="assets/imgs/bethhalevylogo.png"
-                                                    style="border-radius: 7%; max-width: 18%;" alt="#" data-nosnippet>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                    <div class="timeline">
-                                        <div class="timeline-icon"><span class="year">2023</span></div>
-                                        <div class="timeline-content">
-                                            <h3 class="title">Licence | Université Paris-cité.</h3>
-                                            <p class="description">
-                                                Licence en mathématique & informatique, option économie.
-
-                                            </p>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="timeline">
-                                        <div class="timeline-icon"><span class="year">24-25</span></div>
-                                        <div class="timeline-content">
-                                            <h3 class="title">BTS | Ort Montreuil</h3>
-                                            <p class="description">
-                                                BTS Services Informatiques aux organisations (SIO) option Solutions
-                                                Logicielles et Applications Métiers (SLAM) en alternance chez ALTEN.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-
-                </div>
-            </div>
-
-            <div class="blog-card mb-2 c2-w" style="border-radius: 8px;display: block;" id="personel">
-                <div class="blog-card-body">
-
-                    <h2><strong style="color: #4A90E2;">Personnel</strong></h2>
-                    <h5 class="blog-card-title">Mon profil personnel.</h5>
-                    <div class="container col-md-10">
-
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item ">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        Mes projets
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body  p-3 " style="border: 1px solid #dee2e6;">
-                                        <ul>
-                                            <li>Application de recherche d'entreprise basée en France ou en Angleterre.</li>
-                                            <li>Application de comparaison de prix entre supermarchés.</li>
-                                            <li>Application d'envoi de posts automatisés utilisant l'API ChatGPT4 et l'API de LinkedIn.</li>
-                                            <li>Application de localisation d'un appareil en cliquant sur un lien partagé.</li>
-                                            <li>Application de scraping de vêtements et ajout de configuration automatique.</li>
-                                            <li>Application pour la gestion des écoles avec utilisateurs multiples.</li>
-                                            <li>Application de comparaison de prix entre deux départements en France utilisant l'API de SeLoger.</li>
-                                            <li>Application pour combiner plusieurs comptes Google Drive afin d'augmenter le stockage sans payer.</li>
-                                            <li>Formation d'un modèle d'IA ayant pour but de contourner les captchas.</li>
-                                            <li>Application d'envoi de mails automatiques.</li>
-                                            <li>Envoi de placements financiers automatisés utilisant l'API Schwab (anciennement TD Ameritrade).</li>
-                                        </ul>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        Mes Centres d'interets
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
-                                        <ul>
-                                            <li>Sécurité informatique</li>
-                                            <li>Visualisation de données</li>
-                                            <li>Intelligence artificielle</li>
-                                            <li>Programmation</li>
-                                            <li>Tennis, Football, Musique, Ski, Animation de Colonie,
-                                                Codage</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Mes Competences
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
-                                        <ul>
-                                            <li>Capacité à travailler de manière autonome</li>
-                                            <li>Apprentissage rapide</li>
-                                            <li>Créativité</li>
-                                            <li>Analyse, structuration, gestion des données</li>
-                                            <li>Optimisation des taches</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+        <form id="myForm">
+            <div id=""></div>
+            <div class="input-group">
+                <textarea name="keyvar" id="keyvar" rows="1" class="form-control" placeholder="Un message."
+                    required></textarea>
+                <button id="btndec" class="btn btn-primary">Decryptage</button>
             </div>
 
 
 
-            <div class="blog-card mb-2 c2-w" style="border-radius: 8px;" id="certification">
-                <div class="blog-card-body">
-
-                    <h2><strong style="color: #00c429;">Certifications</strong></h2>
-                    <h5 class="blog-card-title">Voici la liste des certification que j'ai obtenues.</h5>
-                    <div class="container">
-
-                        <p style="font-family: 'Baloo Paaji', cursive;">TCM Security</p>
-                        <ul>
-                            <li>
-                                <p>Python 201 For Hackers, TCM Security | <a class="btn btn-outline-primary"
-                                        href="assets/docs/tcm-security/certificate-of-completion-for-python-201-for-hackers.pdf"
-                                        download="201-python.pdf"><i class="ti-import"></i></a>
-                                    <a class="btn btn-outline-primary" target="_blank"
-                                        href="assets/docs/tcm-security/certificate-of-completion-for-python-201-for-hackers.pdf"><i
-                                            class="ti-arrow-top-right"></i></a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>Python 101 For Hackers, TCM Security | <a class="btn btn-outline-primary"
-                                        href="assets/docs/tcm-security/certificate-of-completion-for-python-101-for-hackers.pdf"
-                                        download="101-python.pdf"><i class="ti-import"></i></a>
-                                    <a class="btn btn-outline-primary" target="_blank"
-                                        href="assets/docs/tcm-security/certificate-of-completion-for-python-101-for-hackers.pdf"><i
-                                            class="ti-arrow-top-right"></i></a>
-                                </p>
-                            </li>
-                            <li>
-                                <p>Practical Ethical Hacking, TCM Security | <a class="btn btn-outline-primary"
-                                        href="assets/docs/tcm-security/certificate-of-completion-for-practical-ethical-hacking-the-complete-course.pdf"
-                                        download="practical-ethical-hacking.pdf"><i class="ti-import"></i></a> <a
-                                        class="btn btn-outline-primary" target="_blank"
-                                        href="assets/docs/tcm-security/certificate-of-completion-for-practical-ethical-hacking-the-complete-course.pdf"><i
-                                            class="ti-arrow-top-right"></i></a></p>
-                            </li>
-                        </ul>
-
-                        <p style="font-family: 'Baloo Paaji', cursive;">OpenClassrooms</p>
-                        <ul>
-                            <li>
-                                <p>Passez au Full Stack avec Node.js, Express et MongoDB, OpenClassrooms</p>
-                            </li>
-                            <li>
-                                <p>JavaScript, OpenClassrooms</p>
-                            </li>
-                            <li>
-                                <p>Python, OpenClassrooms</p>
-                            </li>
-                            <li>
-                                <p>HTML5/css3/php,MySQL, OpenClassrooms</p>
-                            </li>
-                        </ul>
+        </form>
+    </div>
 
 
-                        <p style="font-family: 'Baloo Paaji', cursive;">Udemy</p>
-                        <ul>
-                            <li>
-                                <p>Java, Udemy | <a class="btn btn-outline-primary"
-                                        href="assets/docs/udemy/UC-67fd449e-c873-4a73-ac97-be1fbdcb1ef3.pdf"
-                                        download="java-udemy.pdf"><i class="ti-import"></i></a> <a
-                                        class="btn btn-outline-primary" target="_blank"
-                                        href="assets/docs/udemy/UC-67fd449e-c873-4a73-ac97-be1fbdcb1ef3.pdf"><i
-                                            class="ti-arrow-top-right"></i></a></p>
-                                </p>
-                            </li>
+    <div style="display: none;" id="passtr">
+        <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+            <div class="container">
+                <a class="logo" href="#">U2FsdGVkX1/IzcLMKCJRady6/DuMr1WtnrYteg/zeNc=</a>
+                <ul class="nav">
+                    <li class="item">
+                        <a class="link" href="#maison">U2FsdGVkX1/boyeyHgYUfrGyUnzKnGAD3lwLDuAea0w=</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#profil">U2FsdGVkX19tjZMOzBevoKWX7zXQYyK6A8wSo7zrJFc=</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#alternance">U2FsdGVkX1/YjqJLc/TrS1lw/sz+CAMUgBkCKXIQCbE=</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#parcours">U2FsdGVkX1+stWmRJX+7HiVS1xCZxFxDBsX7xFh5/l0=</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#entreprise">U2FsdGVkX18jY4xH8w8q5bD1ypWQG5EhKLvuT1SOKuQ=</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#projets">U2FsdGVkX19MMB/yFbIjIlMqed+Y+fPcgMKodUskn2c=</a>
+                    </li>
 
-                        </ul>
+                    <li class="item">
+                        <a class="link" href="#missions">U2FsdGVkX1+gWf28usyC59IQfhGJ4RJK/nZsVX1JqRg=</a>
+                    </li>
 
 
-                        <p style="font-family: 'Baloo Paaji', cursive;">Udacity</p>
-                        <ul>
-                            <li>
-                                <p>Intro to TensorFlow for Deep Learning</p>
-                            </li>
+                    <li class="item ml-md-3">
+                        <a href="#contact" class="btn btn-primary">U2FsdGVkX1/CwcvEQFuIG2VeSL+ozGWxYSZ/cRP7T9c=</a>
+                    </li>
+                </ul>
+                <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </a>
+            </div>
+        </nav>
 
-                        </ul>
+        <header id="maison" class="header">
+            <video autoplay muted loop id="background-video">
+                <source src="assets/video/header.mp4" type="video/mp4">
+                U2FsdGVkX1/2TtvPmiMACdUzBuF/rUUzQhZH3Gko/T0Dgyz0h9cdg1d9HKTlZ8GMv1TjwIFUQVlJ1wjop8ZzRnpVMyELxI/k+SmKKB2DLRQ=
+            </video>
+            <div class="overlay"></div>
+            <div class="header-content container">
 
-                        <p style="font-family: 'Baloo Paaji', cursive;">TryHackMe | User : Fishing, Top 15% - 46 rooms
+                <h1 class="header-title">
+
+
+                    <span class="up">U2FsdGVkX183dmqgcGC2PgxW79kDyyY5Vs37BOM/iNk=</span>
+                    <span style="font-size: xx-large;" class="down" id="element"></span><!-- <span class="typed-cursor"
+                        aria-hidden="true">U2FsdGVkX19H03OgoYqCx2agcwKLLxZlmA/6gecwEZk=</span> -->
+                </h1>
+                <p class="header-subtitle"><i>U2FsdGVkX1/6RRl5qOMEmvey2GC0MS34DXSZMRJx6MKod7erA2jglS7QQa5Vog3w</i></p>
+
+            </div>
+        </header>
+
+
+        <!-- profil section -->
+        <section class="section pt-0" id="profil">
+
+            <div class="container text-center">
+
+                <div class="about" style="padding-top: 50px;">
+                    <div class="about-img-holder">
+                        <img src="assets/imgs/pdp2.jpeg" style="border-radius: 50%;max-width: 80%;" class="about-img"
+                            alt="#" data-nosnippet>
+                    </div>
+                    <div class="about-caption">
+                        <p class="section-subtitle">U2FsdGVkX1+ioBZ+PXEiNtuvsqfTwghoQ2SrI4wxTD4=</p>
+                        <h2 class="section-title mb-3">U2FsdGVkX1+ZTZOzINm85rjIVX7rUfyyTjTu+2/f+e4=</h2>
+                        <p>
+                            U2FsdGVkX18N3QgO171iotd0WsrkNwkjydQLTIXbq1hZBOg5twsCVar3OUQbr2bSPJdgHmb2b3lEvb5Q0v9nBKsRhVS3v6IwdpqGsj6Av+bIY6wSU34dsEANl622q+7JneH39XGejQn3euBWBdzFZLsWQSorFIhwQ1YLBA3OWCxS+rQ4uPgNomgHdBYKd1iP8Dm4aQaN3yokay9WYz/BlNlT1tAWUaloi5TL1bKBeIYJbLDk4g4taw8ecLGyflz/4+cvujoC+7wi9yY97QYx8BZdH5oL1LUKDl7UiKCqyuPEVnxT55I/Hog+l7AhfCp4f8pottZ4ot24xLgLJN6eBU4v7zxhrrSqZnrgmB30MEjm3asTnTAgoeTbCGQ9uNQqps43aXSPUlyDssuvW/ShMQ==
+                            <br>U2FsdGVkX18P0B6pCtSiq+DFqQnyRjUt2bGiPN5aSOcU0A0UwZmXhRdZgIqOKegaDZglm7VFEMRgu257hQ7DAirDyCxgZ4Y2WkbVDAcZIEwoJKR5/hni8Yg1zlR6/dQWsXbyM/OyBE622HzSLUNN4KINRhv0+nJ/PtUPHpD+J1STA3YkSgNwiuOEYnDHaQMJzV0X40xHMolr6qy7ukGnGy7EYdOHw+SwYjYnZ1PVsrID4lhrO3w7QxoUdt/d9chrHUYH4KNw12KJXvljZbov9w==
                         </p>
-                        <div
-                            style="background: rgba(236, 236, 236, 0.322); padding: 5px; border-radius: 8px; display: flex; justify-content: center; align-items: center;">
-                            <script src="https://tryhackme.com/badge/766751"></script>
-                        </div><br>
-                        <ul>
-                            <li>
-                                <p><strong>Fundamentals:</strong> Pentesting Fundamentals, Principles of Security,
-                                    Learning Cyber Security, Careers in Cyber</p>
-                            </li>
-                            <li>
-                                <p><strong>Networking:</strong> What is Networking?, Intro to LAN, OSI Model, Packets &
-                                    Frames, Extending Your Network</p>
-                            </li>
-                            <li>
-                                <p><strong>Web Security:</strong> HTTP in Detail, Content Discovery, Subdomain
-                                    Enumeration, File Inclusion, Intro to Cross-site Scripting, IDOR, Intro to SSRF, SQL
-                                    Injection, Command Injection, Authentication Bypass</p>
-                            </li>
-                            <li>
-                                <p><strong>Burp Suite:</strong> Burp Suite: The Basics, Burp Suite: Extensions, Burp
-                                    Suite: Other Modules, Burp Suite: Intruder, Burp Suite: Repeater, Walking An
-                                    Application, Putting it all together</p>
-                            </li>
-                            <li>
-                                <p><strong>Security:</strong> Intro to Defensive Security, Intro to Offensive Security,
-                                    Network Security, Web Application Security, Operating System Security, Security
-                                    Operations, Intro to Digital Forensics</p>
-                            </li>
-                            <li>
-                                <p><strong>Operating Systems:</strong> Linux Fundamentals Part 1, Linux Fundamentals
-                                    Part 2, Linux Fundamentals Part 3, Windows Fundamentals 1, Windows Fundamentals 2,
-                                    Windows Fundamentals 3</p>
-                            </li>
-                            <li>
-                                <p><strong>Miscellaneous:</strong> Tutorial, Vulnversity, Blue, Metasploit:
-                                    Introduction, DNS in detail, How Websites Work, Junior Security Analyst Intro</p>
-                            </li>
-                        </ul>
 
-                        <p style="font-family: 'Baloo Paaji', cursive;">Cisco Netacad </p>
-                        <div data-iframe-width="150" data-iframe-height="270"
-                            data-share-badge-id="e1153cd1-de79-46af-877d-4367cd4c8eb7"
-                            data-share-badge-host="https://www.credly.com"></div>
-                        <script type="text/javascript" async src="/cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div>
 
-                        <div data-iframe-width="150" data-iframe-height="270"
-                            data-share-badge-id="cc0d614f-e67f-4a2e-9491-807593c2e941"
-                            data-share-badge-host="https://www.credly.com"></div>
-
-
-                        <script type="text/javascript" async src="/cdn.credly.com/assets/utilities/embed.js"></script>
-
-
+                        </div>
+                        <a href="assets/docs/cv.pdf" target="_blank">
+                            <button
+                                class="btn-rounded btn btn-outline-primary mt-4">U2FsdGVkX18nSbdVFXcBx6MpIg2i4w2RLbp07GrbjDk=<i
+                                    class="ti-arrow-top-right"></i></button>
+                        </a>
                     </div>
+                </div>
 
+            </div>
+        </section>
+        <!-- end of profil section -->
+
+        <!-- Mon alternance -->
+        <section class="section" id="alternance">
+            <div class="container">
+                <p class="section-subtitle">
+                    U2FsdGVkX1+XAF7G1FeAV4dXkcVBSwKF6S7h5s1+o7indtHx5QBqbNYNW1nID7guqjXarAjQ39XYK/N6/1KbkA==</p>
+                <h6 class="section-title mb-6">U2FsdGVkX1+pY1YFBZyIigN5nz7NvV0G2ZtMfKX5HJM=</h6>
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/ort-logo.png" class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <p class="testimonial-card-subtitle">
+                                    U2FsdGVkX19xUnJYjzyxLDl3y/5Wad+zU3x9GOneXEzZnjvTXP/rjnfRungv5W1izR8hOZBSKEsSfuNBx5D9GKNwuiSB1ca9RDZ0thjIq3RVZAwhmAnK7D3PMmQC8vX60Xcs/Wx+eoTWBgcyXziERKHkUtuEwB4dF8M6+TH1Z4fWSscAzBmvxgCEPt9kaZ6s+l2W/+iL5FAJ3doTyceOYBFGtNID5b5Ek6cDAt7/Sv4xlLnyoEyaM8rOhJWJehcjqyV1i2b7LtB+cPrjNjCJc2LYIJCzjReFTye9y6TXCPqlMyH1mRC87hmQUsDSqETT
+                                </p>
+                                <h6 class="testimonial-card-title"><a href="https://ort-france.fr/montreuil"
+                                        target="_blank">U2FsdGVkX1/tbDv8P1dtuDv+O27oqEHm6Pe8fX6QDVU=</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/altenlogo.jpg" class="testimonial-card-img" alt="#"
+                                    data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <p class="testimonial-card-subtitle">
+                                    U2FsdGVkX19OqsFGyWkp7sh+Be7K+yXtAp2pJX1PNFXpKaBBL5OfeQaDcLzETCW3tV4K9dEDcjjPyY+cKAIrbv+oGoNKfGKIihlaQd38+/srvHveKq278wFLZHQjoKvTf+QTlHoeX8mROOHDj3U4QEIUlc7cYj9vS97hv/EBZm7uh/YjZYXiD+zViUiBsWvc9iueWYs7+2jDA4pAqM7/a8tYIeZLzUyU+DPac+D4jB+Q7t1g1qGW9EWrs6q3dMmphCRUMwObblV7imovApVU0D8CdFL4np3eaLxatFOqEZX3qjEmwNweRi9dchkShiCwwHJqm//PksNw8x5Ul3CsIm1w/v8bM4TNxZVVBLyi+kk=
+                                </p>
+                                <h6 class="testimonial-card-title"><a href="https://www.alten.fr/"
+                                        target="_blank">U2FsdGVkX1+B+Jnl+s0O0nI67mXxSimTwPATQCKppQzeU/14PVIUOdZK/Frfd4mPzuqKOFp1NZOptd7ey6yrwsNjusOMgtWvwcxXiZAqACcHfo9Ybrlnq20YmcN+KsE8</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
-        </div><!-- end of container -->
-    </section>
-    <!-- end of parcours section -->
+        </section>
+        <!-- end of alternance section -->
 
 
+        <!-- Mon parcours -->
+        <section class="section border" id="parcours">
+            <div class="container">
+                <p class="section-subtitle">
+                    U2FsdGVkX1/gLjNRvjqqZA/ktqxtZqJ8iG7+iQyY9HTgwC6tbcBGKI/5efcY7CmHa1Eo2W0gqrvsuAoWtJxeabuZRAVJX10jE7DK/xE9GMA=
+                </p>
+                <h6 class="section-title mb-6">U2FsdGVkX18pHy0HbhuJ8vO8sHVmsvFUaCVmyezVNEQ=</h6>
 
-    <!-- entreprise section -->
-    <section class="section" id="entreprise">
-        <div class="container text-center">
-            <p class="section-subtitle">Presentation de mon entreprise</p>
-            <h6 class="section-title mb-6">Entreprise</h6>
-            <!-- row -->
 
-            <div class="blog-card c2-w" style="border-radius: 8px;display: flex;">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/altentechgrp.jpg" style="max-width: 356px;max-height: 356px;"
-                        class="blog-card-img" alt="#" data-nosnippet>
+
+                <ul class="ul-circles">
+                    <li style="--accent-color:#FF5733"><i class="fa-brands fa-codepen"></i><a href="#formation">
+                            <h5><strong style="color: #FF5733;">U2FsdGVkX19dZKFCJpKrssZZUcXZh3cXQ78PJEtBWl4=</strong>
+                            </h5>
+                        </a></li>
+                    <li style="--accent-color:#4A90E2"><i class="fa-brands fa-html5"></i><a href="#personel">
+                            <h5><strong style="color: #4A90E2;">U2FsdGVkX1/c+voRelqWA8w+MbQVKtMKeS80cQ5ZPqc=</strong>
+                            </h5>
+                        </a></li>
+                    <li style="--accent-color: #00c429;"><i class="fa-brands fa-css3"></i><a href="#certification">
+                            <h5><strong style="color: #00c429;">U2FsdGVkX1+JuaAPM5sZwp0xS/0hG7L/FyDCpicyzFk=</strong>
+                            </h5>
+                        </a></li>
+                </ul>
+
+
+                <div class="blog-card mb-2 c2-w" id="formation">
+
+
+                    <div class="blog-card-body">
+                        <h2><strong style="color: #FF5733;">U2FsdGVkX1+Ix2ly7izzRCbfEqh5GHOungeS7wGBMek=</strong></h2>
+                        <h5 class="blog-card-title">
+                            U2FsdGVkX1+NCzBWkEtTvY6xSdtXCuQtd69Yhe0GB6JT4yQ8DvRlpc1UVuQkJhguRwIUWdBPsWyQL3cP1IZwjKN4PgYTS6HfjKYcsG5KaME=
+                        </h5>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="main-timeline">
+                                        <div class="timeline">
+                                            <div class="timeline-icon"><span
+                                                    class="year">U2FsdGVkX1+FXEz0h2Hl/YqNRDlRDL7Ww1MWgJqE5YM=</span>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <h3 class="title">
+                                                    U2FsdGVkX18hwMZjfO6h18j91C2+mM1LUPUJKMZy1CeMXL2vXIrM1v5v8GBAxEej
+                                                </h3>
+                                                <p class="description">
+                                                    U2FsdGVkX19aSkCAJl8PSLmqunDbWh9iTrwBi9d/eZCnTf1D+Z/2HX1hjHVbXA6HmcpIEBG95fDaltmIMvWFp63Tn6tjryzxYH6qgz+Hx1wgraH4Fs2+RCmWYna2eo0OQ4g3jKwyDC4LnqG39jWJ5OTRxR/fgWUpdtte1tN55gR0YQVCeDZhrprYuZFov8Gm
+
+                                                </p>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="timeline">
+                                            <div class="timeline-icon"><span
+                                                    class="year">U2FsdGVkX1//KXt7Gjm6kYyGdnkU4scjzBhonLeDacc=</span>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <h3 class="title">
+                                                    U2FsdGVkX19Jn3e98tG7zm7srt7/hry/wKr3DT2oRW2YxEadualedTlakdKOtZ5M
+                                                </h3>
+                                                <p class="description">
+                                                    U2FsdGVkX1+R/bAMGfkf3+3gB53zFoH+qHKhOO3dfoFVdwY0bEtPzWnXe6XoYlUzxw2otNjDCuCv8EoKYMdueg==
+                                                </p>
+                                                <div
+                                                    style="margin-top: 10px; background: white; padding: 10px; border-radius: 7px; display: flex; justify-content: center; align-items: center;">
+                                                    <img src="assets/imgs/bethhalevylogo.png"
+                                                        style="border-radius: 7%; max-width: 18%;" alt="#"
+                                                        data-nosnippet>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="timeline">
+                                            <div class="timeline-icon"><span
+                                                    class="year">U2FsdGVkX18SsrmERb1cKPhQYEu0UykSwl3PrphYSsk=</span>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <h3 class="title">
+                                                    U2FsdGVkX1/SmZZfTC0Yr3Eo+xBjydAa9FRRzbaK0HXEC/iraEeMdY0hXNjeF8PW5ZslbT6ooe/wo8FI9hXJTA==
+                                                </h3>
+                                                <p class="description">
+                                                    U2FsdGVkX18bvSqiRzFWa0WQUVH2B1otWABWIxaO/+sgVJ361vJ6L27PVWe+4R6sXGrRsd1AwA3ACtjEBf53qAUPb1bS5AyXV+ovzHSE6pg=
+
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                        <div class="timeline">
+                                            <div class="timeline-icon"><span
+                                                    class="year">U2FsdGVkX1/MwIZG9YNqwYBlcMgyw85GO+lsvw2qpbo=</span>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <h3 class="title">
+                                                    U2FsdGVkX19GnCkpb0mPgXVxIVZXJe/TZgf3X1oc2pMGqwKqDeLr+nPIOYmWWYN9
+                                                </h3>
+                                                <p class="description">
+                                                    U2FsdGVkX1/Dcuaq9gEJRAYlox2Hq9N4uQnV3DZdF7LLE19GI+KygN6ARyC2v7tkInHa27nOg+vtH6quC0ZJb8jkJ+4i13xjQ/E3hmOmFxg1pWucdoiKLRaVpiM14cBevnY5Y6ua6dZBM00tgx45zfntcdBlQhTBvzwfu3sPnX/9ualGK9NbcvATrIzjuOXtzrrM4F4Tzg9kgdwRMuH7yraEmD8HvyzBAHgaT+CTwepMNS0ch0y/iSsSrJWUCvrEoFDlPNF3yppHMSFibi+q/Q==
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
-                <div class="blog-card-body col-md-6">
-                    <h5 class="blog-card-title">Détails sur l'entreprise</h6>
 
-                        <!--  <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
-                        </p> -->
+                <div class="blog-card mb-2 c2-w" style="border-radius: 8px;display: block;" id="personel">
+                    <div class="blog-card-body">
 
-                        <div class="accordion" id="accordionExample2">
-                            <div class="accordion-item ">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="false"
-                                        aria-controls="collapseOne1">
-                                        Identification
-                                    </button>
-                                </h2>
-                                <div id="collapseOne1" class="accordion-collapse collapse "
-                                    data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body  p-3 " style="border: 1px solid #dee2e6;">
+                        <h2><strong style="color: #4A90E2;">U2FsdGVkX18TJrskJVCbIiJj/rwclqyoC2yVQqAvDBs=</strong></h2>
+                        <h5 class="blog-card-title">U2FsdGVkX1+Ck8uPeNE9kVRqAuMewWkO2S658ejgdVlxavZGWjyk49vuAA4YAEv0
+                        </h5>
+                        <div class="container col-md-10">
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            U2FsdGVkX189txfFqFRJgCuGEniycoDl5D5FfNooxEY=
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body  p-3 " style="border: 1px solid #dee2e6;">
+                                            <ul>
+                                                <li>U2FsdGVkX1+zrt++FdlDoabg5dFQI+fW8UKuVllsFluq3PeBOR9+xKHOj20/waNUkMPRSy76p1L/v+MKM7JNeg1j/mZ+mH+v1bgek1rwgslTXVb5/bGFYASLCX4ZRs4c
+                                                </li>
+                                                <li>U2FsdGVkX1/pFTyctf1HVfyuksbfeVaKCYvZFjKz3a33jWMbKVYKahai01EARmkMvtpUNt5poDcnzHg+rj/dOT1cZB99ZrUesDFZN4exFxI=
+                                                </li>
+                                                <li>U2FsdGVkX18wdEHsbsL0L1MhS2GpAdDJ5siUxWw26EoGsK2dLvyziVcw2TZC6rMMpsgLGAeu+iT3Mk8UAKgejqoLSCCzlJ1GmGvgXKhm8VqsUgSPhXI4gDo7sbksD0bgp4A1pdrLRZw51krt69oUvWxCAD5pSOvlmX+DEQ+MpTOJ+O7szDWEeO61hkyv53en1D3sdfOxudENgMp5yg7QyA==
+                                                </li>
+                                                <li>U2FsdGVkX1//65t/sxEJQFA/ABvUln4FHogKEvZ0rrRpfpiXd3arixDZmkiHy5ximIFfIDdOUF802U5KFUUwuw6tGOJug5I2jaa1dRBt+HIaSXdNmBk68Ky/KgCOS8liA5IfafUCB9SlcS689A6TgQVgj8Nmj6OjT+nDsxAs0jmqnInHjLc1RtFuOheZycxz
+                                                </li>
+                                                <li>U2FsdGVkX18dd5OQwPFcUHn8OXRMSuk+uqFuP3WP6A7312RjRxWn3PuTWbv8uyV0jDePq/quIHVhGoJUbbMjqsW6dCFZ7KNbH1fUtoOKj0+F/KzhSMB/diq5aAq0cZT7A3bUKd/7Y4X+lsfMj6/ISBMOGaXsHnsn8aE0VCj5zvpTqtGcz7Jbe3RE97Z6XzWz
+                                                </li>
+                                                <li>U2FsdGVkX1/mi46fGqYwhMnc7hoaoqjbGxCcE+zrZDWhiUyjdUU9eK/GhV6OIcOCbZ0DuTKUgysVun3ZVsT7DkGgtM9MWaOMaI83cDe0ZrPPpjkn3MWt65m5Y0AuRaKd
+                                                </li>
+                                                <li>U2FsdGVkX19yguyp/+N7ovW4awvMWr/jBTPGN/TEGwyhq/CoXG5EPe5y6poE/XxHO+GbGMnNYxVqy/SZCS8nlvxbYzbndbkRFgnLIlzXGkMtvaZkcCHeoFDhFYUryK/3qVO5a73b6SrINrDaJQeCXRP+F+gZsxxkEW8iNu8/7y1dmreEeWI58sfzuOd6a6ys2fes6LPqQA6MOAoX9lJwam/delmK3TA04r1Tcu2CswY=
+                                                </li>
+                                                <li>U2FsdGVkX19XV1L0CbWLvgBJ5sSy9jOMLlAG8reH/uPk/I3P6WI0TAt1O/jjymFbMfbY0IGI1TLU1bo3wz8hFVe7aczm7umVWcBO9W0JZhfZDbOfeTZOg+yEUAXG3cyrv/vLYEbFiFY4llT+TZVM2WMlniY/CwWHVrJwmdudY5pkLLoyVQCkSQ9+UUn+7nQT06uvn5RwNwL0BF2nR7K4OTABW5t7xisV2vo3o2tZJmc=
+                                                </li>
+                                                <li>U2FsdGVkX19T/1/3VMgkM9UU3h54f/DellipK8QJcyJRkHbR+QiqLFbv5VFA+wEojLiaw6AoEBMGYFnPO9i2dSEMeCKPJmMw++2hswKJxUufNs8vg0D7LvZ4IFI4Ea+F
+                                                </li>
+                                                <li>U2FsdGVkX1/2GYv5aV+SoPFIOGHuQmZ8SG6tBWgVAqX8HMuhL7bhGpRapv88JXR/JU22XywPl0PQzlgV1/OWDw==
+                                                </li>
+                                                <li>U2FsdGVkX18JNwFYFRU+AnxxGthoVCkSnkK4gHDiI/qYkBw6bFwMSdIO6IDZdUYhRYmC9MS8NmTDi4VKXGUfTP+63VPHfyWM3Po4Mh1KpbwU+c6Os6xexMQEdiNk160MwmFoDadkRIR0H5SD+mArkTeTLerDGVoSNXZ2yD1JwD3+iP0wBN0RqqHZUCFtz3v195GKo1j7rC9hi52dKDFVi2vL6SajV/f0JSBihEyHmPo=
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            U2FsdGVkX1+TTYiLIDulEhUKEoXq2QWjW9mNvmxEXfrCEQqkpzY8tNFWcdJRA8CE
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
+                                            <ul>
+                                                <li>U2FsdGVkX1/bK81DFXCs5fuqEWaMM/IPd3T/b6wL9wV3nPkfUECLE55oanxJK8Of
+                                                </li>
+                                                <li>U2FsdGVkX19x/qCGUismQSha4zFYfA6s259JU3GckRdIjua3XSPP6GRhstBxkUb+
+                                                </li>
+                                                <li>U2FsdGVkX19f5Asjc+HUhiP/++67ZA75IgnQfrum3ySp0ZCqwUHdw0vWcMOnZPUD
+                                                </li>
+                                                <li>U2FsdGVkX1+HZb47rZALyNLgj5WkXoGQ1PdCOtPxYms=</li>
+                                                <li>U2FsdGVkX1/hfo7eXHC+SdEgiyGiFN9Yhep0oq2czTznO219h7HsLlpMUPgkQkzbuBQAswjxB+jcugtoafcTpA1VUD2FSVq4hGE8Yw0Yl6Z2GiLHdf/64Kzw2OKFGHOwLcCagTk3aH6MSELRERKDrAYp1fctNyUV5MUIotQyNDA=
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            U2FsdGVkX1/Cz+6NWkTdHXVCm4uSlKp3YSHNPS9ehok=
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
+                                            <ul>
+                                                <li>U2FsdGVkX19X99SvK9VoucdLOWOvIP88/We//Fn+T+1jxzR81AAvVMQHiJI5IJrFAkl41G1JcgHVH7fDANwmVw==
+                                                </li>
+                                                <li>U2FsdGVkX18paJTe5CfATwhQ//Hb4qiFIm0BwFw0dKyQ0WOQ6z9r+5XpsW6/5GT8
+                                                </li>
+                                                <li>U2FsdGVkX1+a3aX9aNTLiCX7C6Z68ILwwtIEe3Mf6ZU=</li>
+                                                <li>U2FsdGVkX1+wukTeD9rk5Mp0Y0EKdC/fkXS1t1g7yNhenFLdfpwsnryrt/TfHirsI/+6liJchJaP02p65mQV7A==
+                                                </li>
+                                                <li>U2FsdGVkX1/mRaGptrRAYhiBznAR3LsEDeA9ZRILBe43QYNosQBt1pd3rRomu+n7
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="blog-card mb-2 c2-w" style="border-radius: 8px;" id="certification">
+                    <div class="blog-card-body">
+
+                        <h2><strong style="color: #00c429;">U2FsdGVkX18DkegmdwEqIcS8ZBGF4qmmBET7VD8HbFI=</strong></h2>
+                        <h5 class="blog-card-title">
+                            U2FsdGVkX1+7goeHqk40/BPBU4NGKAvs7KIn8DcbpmRtDe/NNHqXvBJJ2wC3PmnbxvSqyu6Rvst9Dk34hlddr0WvX43jP4SBsL3WlLTY9bE=
+                        </h5>
+                        <div class="container">
+
+                            <p style="font-family: 'Baloo Paaji', cursive;">U2FsdGVkX1+w4XOl19AX3Ahs3jawEH5BKrM33YHvfXM=
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>U2FsdGVkX1+GbfJAJpSoMTCC7CDyi0ZGqPvb7qD548tdDmeM9A7JijnrBadrQqDNH8lJvxClHBZEJvpXMNTFpA==<a
+                                            class="btn btn-outline-primary"
+                                            href="assets/docs/tcm-security/certificate-of-completion-for-python-201-for-hackers.pdf"
+                                            download="201-python.pdf"><i class="ti-import"></i></a>
+                                        <a class="btn btn-outline-primary" target="_blank"
+                                            href="assets/docs/tcm-security/certificate-of-completion-for-python-201-for-hackers.pdf"><i
+                                                class="ti-arrow-top-right"></i></a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>U2FsdGVkX1/f9ExvaGB1x6jXN9bEXnsHUl+ZZ32yc0Nec8Fmr+nwxbt4Su/uKEbxJIPvPDN6o0djN/PLyfc4jg==<a
+                                            class="btn btn-outline-primary"
+                                            href="assets/docs/tcm-security/certificate-of-completion-for-python-101-for-hackers.pdf"
+                                            download="101-python.pdf"><i class="ti-import"></i></a>
+                                        <a class="btn btn-outline-primary" target="_blank"
+                                            href="assets/docs/tcm-security/certificate-of-completion-for-python-101-for-hackers.pdf"><i
+                                                class="ti-arrow-top-right"></i></a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>U2FsdGVkX1+K8ehMbSgLC9FFmmvBdE/P/soEl26Opr5q+d574C9udG2nCO/Dr28e7AgKVKCI6UkmXm7kkYdhFw==
+                                        <a class="btn btn-outline-primary"
+                                            href="assets/docs/tcm-security/certificate-of-completion-for-practical-ethical-hacking-the-complete-course.pdf"
+                                            download="practical-ethical-hacking.pdf"><i class="ti-import"></i></a> <a
+                                            class="btn btn-outline-primary" target="_blank"
+                                            href="assets/docs/tcm-security/certificate-of-completion-for-practical-ethical-hacking-the-complete-course.pdf"><i
+                                                class="ti-arrow-top-right"></i></a>
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <p style="font-family: 'Baloo Paaji', cursive;">U2FsdGVkX1/SSyVcE0+FNJ4mIOfhRdUgB1cEwcDhJjI=
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>U2FsdGVkX1+VrDVgooh+3Pl4M992DzV8BGA/uXt8yBBgCfxy/hGsl2eg9FAkWm20VmgQ8Py4+UABblj9uyxlshfd6PrCkC3SgJIA86bnqPRIpC4PTKlDwGqivPdVuKdM
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>U2FsdGVkX19vCe9soFOFJ6rG9Dzhdx3ijOS3qk5x4x3yqRe42/WJ3xgEbjkZPdhV</p>
+                                </li>
+                                <li>
+                                    <p>U2FsdGVkX18AlxdkovElESSKGf3hkEmdAvh5cX+aZ/mOm85rfpj8BVc7MYtGCLC7</p>
+                                </li>
+                                <li>
+                                    <p>U2FsdGVkX19fh2oU+WKLnO88PCCpN+SLjvmua3p4iPkrC3muDGEe+KeB5dYVNCj3bEV9l+zEqZ95ZldD6Pxiww==
+                                    </p>
+                                </li>
+                            </ul>
+
+
+                            <p style="font-family: 'Baloo Paaji', cursive;">U2FsdGVkX19Y9I28UnZUcNtllQtA3qbvkQo/gY/a07g=
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>U2FsdGVkX1/Dymt4JZyu7F9reuB+KtbK8fV8oOfj+F4=<a class="btn btn-outline-primary"
+                                            href="assets/docs/udemy/UC-67fd449e-c873-4a73-ac97-be1fbdcb1ef3.pdf"
+                                            download="java-udemy.pdf"><i class="ti-import"></i></a> <a
+                                            class="btn btn-outline-primary" target="_blank"
+                                            href="assets/docs/udemy/UC-67fd449e-c873-4a73-ac97-be1fbdcb1ef3.pdf"><i
+                                                class="ti-arrow-top-right"></i></a></p>
+                                    </p>
+                                </li>
+
+                            </ul>
+
+
+                            <p style="font-family: 'Baloo Paaji', cursive;">U2FsdGVkX18K20ctvFtU4qaD7lmMo069KC/SiVUIv2w=
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>U2FsdGVkX1/gO/N+zwbJgHne6HrkLSTOcq+l5VRvw9sTvnQr/dnJu8e8SqESzhxuKYYOYwhe0l+lo7NjeOwGgw==
+                                    </p>
+                                </li>
+
+                            </ul>
+
+                            <p style="font-family: 'Baloo Paaji', cursive;">
+                                U2FsdGVkX18ME5f2Tp7/+lZIBI8zO0ov1z3bFI0qOd9pw4EFbzBxqBJG7Dr2NZ9Ul9IR78iT06hnMhfdvKa0kw==
+                            </p>
+                            <div
+                                style="background: rgba(236, 236, 236, 0.322); padding: 5px; border-radius: 8px; display: flex; justify-content: center; align-items: center;">
+                                <script src="https://tryhackme.com/badge/766751"></script>
+                            </div><br>
+                            <ul>
+                                <li>
+                                    <p><strong>U2FsdGVkX1+r4tUSH98wydTTd7Xmb3oBjVfTG+CP6gQ=</strong>U2FsdGVkX1/eb/AYajBWSfW90tw9Q5DFNG4O86rFLNW/tJ7rVTv3JBile1a9QbsjW3NGO0bRqE2PmtGxgk00Ib1aVoTVG5XeR56YjzWdyVUoXkVprADyHkxdzmSw6hYOd8VtarvYZZuZXhUOq7M4k2yjo34lK1oYJovBHeJBOKSl3v+27+fkA2iMaLyjUtdu
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>U2FsdGVkX19stA6exb5nnz+GY2tN9st2Aw4C3+Jgclc=</strong>
+                                        U2FsdGVkX1/yW/dEbegGTdVnPpNISGBUN1pfJooOBQzvNvqgFT53u4bb0JWUgd+Nj2/ATx44IvGIpjtrpExegeIJHkIeZe7is1wNR0MIMn8/WQyjmucMiZAF24qDvUNuNFv65TZKCqxtSj308LB4dlvUWyB3umMGU3A7YrIrfTEcgwRJiCxXMeVwJ6OF3PKq
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>U2FsdGVkX19cvk69dFmb1lW5216kZK/vaaoArZEN1ws=
+                                        </strong>
+                                        U2FsdGVkX1+BZHuM2iXW+H+41RMINOFIYTLKLh9X6DgIR7ReRwwNfQZagcTM1YvmowFEKaXsA3k6Un2pZhEle6uY2lih4sX8x/AQvr/Rrupe2CNqFuOYcxyVlYdOU2AxT5gl/dt6MWNPZof5pxuRdyDooRts83YAhNUUNPQIQu+QnEUHEvuwqT73rd49a6AucZsxMMiCG7GGm9fsxlKLHygtPDqLnpYC1qW+14w9CbQFWW9sSGxGDwGiGebmGjVLWFTA6BCpXPDrKwebieD6xbRBwA1+7j/1SNPfmMUFTJulwYCvIZlu8qGFWwfQTqhXHAP1nkaeudtoDjCPzCuAMWbpvaBrJdack00HQ/rAY1g=
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>U2FsdGVkX1/Tn3Vfxv5YWIRIihNgCc0S43MAe3C73m8=</strong>U2FsdGVkX18LHjKoqaebgidHc0OG6a6Jrjetmsus/8XmB1SH8gedBwwC2hCgP1gSNktJXcUtCBU87iufQ1PDdz//iZSA/k2dUU5MEomHnAKW0h38fA39kVT9VBKWWGt5F58vgetkgiYJkzXtSxi9WTLBO4q/uuw4yBaUgcoT/q4zSDWwVSoPFlJO3triNw2nabIeIpNIEeD68VurrarEEhhF/qzkAXSAZDuHADMG8C35wKRKRAul77FNH1V347LS8OJx/ALH9wpkmqc+pOgt1BSa/QWFhZKWoCjWhbeS7PI33zz0qL0nw+ONE9FjVIVN6c3aZX44lXVPdIs5Lrc4QQ==
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>U2FsdGVkX18QC/mQikM5jYsm9Bxr2qx81lc8kwOMGRs=</strong>
+                                        U2FsdGVkX1+n1cSOjBgHd8JK2Z8JxdgnJDP5IBwlaIEeP1w7p4AnL4Jrlwv8yDXHk6nn02/FEAgX0K0YQ7rLrG8oany4qb1ugz8xxf96t6C4bw0y7+rA28fI0E7RHOGhcSLQQaOCa1+uT2JzBASGErhTJDS5zyjD4Ln+XADV3h/902KiyjGRil8cBcy1vW+yWDunDIS65nm9UqT+nhGxrDEGdOoQk1mR4/HIfGmNNM5OLxk48p3QgHZSqgrgAzOpisdAhrCgpTkKOcObwbAKssOVt48LoLLCVlklfSON5SC7wM0+Id2c2D/aZq+4Dyzd3oLgAQdTaXhyff/w8ANBv/j23G4NKYqRWNsBbk4+Zc0=
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>U2FsdGVkX1+6H2sDXE5hVj7+M7dvi3GryNGRVahJj2tRsvds5dDC8O2sJ5shxDmM</strong>
+                                        U2FsdGVkX1+ZCKfAM1uDssnijqIMvOQJRAAJcvRWfLXijgzXzHCTbjDH79OtRgnoJAiJsc4o+/PH+CWUc7MoEt71kBbx7S/hg3v3JNgjXtahfnww2Me5S5JMafbUSkUmM0wKbMDwZAxViVTosYr6sOGWCkRoMOFKGOjl0WemIvSpd20CgwcpiKrvy/BNfc4MjF7wgqYLdCq5xoG1a40dUYXoVtn4/3VBh0yAS/Yvo7oEDLX7t9jKN6vqgbL0msuFaUqxaAKI+1ulpyzRzhf3ATHPF5ZDsEEBn/2Ft0dE6/F9ETgcEN+DFuYlb8v2CwZp
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><strong>U2FsdGVkX1/uOpdbPqQWRgPqJpodRYlocuMvuernBj8=</strong>U2FsdGVkX19vwqxvKuF2Yd95YTnfZ55dMzJW8TBQfrUOysaEpJiEjXo4xur9KawqxYJa4Lp76diqf4fCfEQAx4gAmMkTWeu5e6P5S760o51i3U+Gc9YoytyJbzirhVVC/ITFh0NJAPgJUGMahLGs9mClsm3PEspgm3afMIRfKcgIEbEf8oSprx6TggsVBMExG8NRVJ5aGHlRv8oVMrsnzfrrByO9R1ziRltBKSRpSEs=
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <p style="font-family: 'Baloo Paaji', cursive;">U2FsdGVkX19ZzWpSBRQfQMBNXgBWq23Hz2topStajJE=
+                            </p>
+                            <div data-iframe-width="150" data-iframe-height="270"
+                                data-share-badge-id="e1153cd1-de79-46af-877d-4367cd4c8eb7"
+                                data-share-badge-host="https://www.credly.com"></div>
+                            <script type="text/javascript" async
+                                src="/cdn.credly.com/assets/utilities/embed.js"></script>
+
+                            <div data-iframe-width="150" data-iframe-height="270"
+                                data-share-badge-id="cc0d614f-e67f-4a2e-9491-807593c2e941"
+                                data-share-badge-host="https://www.credly.com"></div>
+
+
+                            <script type="text/javascript" async
+                                src="/cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- end of parcours section -->
+
+
+
+        <!-- entreprise section -->
+        <section class="section" id="entreprise">
+            <div class="container text-center">
+                <p class="section-subtitle">U2FsdGVkX1+oyGlR2LYks5tsfKVIbFWy8nkPQeJzVyMTw5kswtXhIPT4AiAMCiLi
+                </p>
+                <h6 class="section-title mb-6">U2FsdGVkX19AMyFtJWyDwcs0iOZPkxESYWbzszh57qA=
+                </h6>
+                <!-- row -->
+
+                <div class="blog-card c2-w" style="border-radius: 8px;display: flex;">
+                    <div class="blog-card-header">
+                        <img src="assets/imgs/altentechgrp.jpg" style="max-width: 356px;max-height: 356px;"
+                            class="blog-card-img" alt="#" data-nosnippet>
+                    </div>
+                    <div class="blog-card-body col-md-6">
+                        <h5 class="blog-card-title">U2FsdGVkX1856Ks0pUof73TpmBhWncSCnrpOjIQgAt4Z3JqUhc2z1wMTE+Z+4VgS
+                            </h6>
+
+
+
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne1"
+                                            aria-expanded="false" aria-controls="collapseOne1">
+                                            U2FsdGVkX1+O+6RstdYC7fbJKRnusEM0xxeyGrlg2vE=
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne1" class="accordion-collapse collapse "
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body  p-3 " style="border: 1px solid #dee2e6;">
+                                            <ul>
+                                                <li>
+                                                    <p>U2FsdGVkX18ULy6q97DhFLrT/iMl7ot2TXy1ilF3Ho8=
+                                                        <b>U2FsdGVkX1+diVlw3sP7cpeF59RU7sbn7hh/Qw/T76c=
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX182b3eY6qnwGQdCiqNcH+LOOnAb5BZz2kMvT9HAfvgeUSoC1/KOcQtB
+                                                        <b>U2FsdGVkX18bcR7z3tN0DrlV7atIfbh5flshzUtdejeQS1RxwqPSf7Qm0b5Ba42y0309ZjCp2dLQz6p6LQ64iCdf41uDNrjNjOnJ3EHHCsfBnJfn0TdQU74/I4GqhrEIece4yturOK5+erzhXz+QBc2pDxAS6PzfBzhW2hpKJ+c=
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19NjwPWz8X91lA4CFDMu8TN8oRRzT+KxDOQOGDo1MzoXBZXc5bXiewL
+                                                        <b>U2FsdGVkX181T8hL5KTEaOwRPOl4YoQW3PPdccqbGaNJPT6VaKLmxLcYKLgFeHk0
+                                                        </b><u style="color: rgba(69, 93, 213, 0.297);"><a
+                                                                style="color: #4A90E2;" target="_blank"
+                                                                href="https://annuaire-entreprises.data.gouv.fr/entreprise/alten-alten-348607417#:~:text=La%20soci%C3%A9t%C3%A9%20ALTEN%20(ALTEN)%20a,elle%20%C3%A9tait%20cat%C3%A9goris%C3%A9e%20Grande%20Entreprise.">U2FsdGVkX184DTf+CJL4kMO1Jo9cAdMeZI2EPStGhxU=
+                                                                <i class="ti-arrow-top-right"></i></a></u>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19xYXQhztHf/95C7RvkxseBwu/7wz2Tm9E=
+                                                        <b>U2FsdGVkX18EdOvZ0U/PQvohSEI0rH88Bwez8Apt8sKTX/tai4slW+xyZxhnQBrL
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19L9aVIbWoc2n9SbyceZHJ9FvK/X/xQT7Q=
+                                                        <b>U2FsdGVkX19trFqpbijwa+32FJjSyJv3JRkT45OA40Y=
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19I09pIDKhFNVxYZxLx5O7WD21aQM/Zv1EWJyTEzDuV/hx4TBKGqAmT
+                                                        <b>U2FsdGVkX18egjsDQqYZyPhncLVMcOKh/IO5DRCNMKl/lNv+KSQ3g86fgeLrC/yv
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo2"
+                                            aria-expanded="false" aria-controls="collapseTwo2">
+                                            U2FsdGVkX19Si/AaBjVACwg194YajN2M81W5YgUSDRI=
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo2" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
+                                            <p>U2FsdGVkX19ohSh8DIEhOXW4rYbl/ukstNnSFlzDyRR3cASS+YwuQkBo+rrhFWwWybDwmn3QeAEWJtzZ0x8BJptr51XI7bZ4nFTXjE8raKPw5ByAhJuNp2X6K5yACR5D4Gp4RqMND9JhGjJImB2eVShp35BLk843wJDOjryJ2nQOVnSuCGsb9NDjmItz2uU4Edtgm4qtNDuedrkKnZyBKlmooG0XggLSyrqjGhPTXZ5f3n9kPFZ26NpQh8d82E7gND0oTPF5o/Iqi+gacjUK4xe2DCALOpGsTnwqVjz3ER0z4lLJ6L6N08OpW3X8R+U0xlQQ3iuArvCR13DrrfuxQn3uwzZSvr5IcBRxdOUXhBOCOA39DpEEfHRFmYjACJUP2y5ofm+5nA5bp5L5+gUcAAM9t0hY8P0yog1ZRpK7bjgqeC3gGQWU2fRAKs6aaEYbqNshLPnIvPDiVH3sp7HKEf9gbNeg7jznbiWa4NmFl48Xx+0YBolCzqxoLeQawqhhKg7w/421/DofTNJD2ukraB2aKLrRjRsnhciYkFtUqSVjBAISum+W1fqj2tHV1nxMZVkVRBX/rogGcID/NT5RK78h8M1rxe8jq9lX+0ceQcacZ1sy+QvNQXGM6YdrrOhHRhFzxyjWHvohoZPyVMLUfkEOXX8l7okn+Tioju1I9HLtXhSiqZlFgm1MjzZw7DD6HMdNvO5ulkNQ9y+3nUqEuIljwzxZvp+tznQNDAL7Do1aU6sEDgqVQJifacMSQvyZtvWgpJTJkGa+EtFwc9b7IJM96AmlsFMz/rDeHNJxWg2n5QI4+McfMGDeiVpo8DiJ1czOQlv3NjLnkqyjWCNJ6mhPVo2B0pru6qnzm59mJmcldK0mAyCkEZR0gLH3T+0jLBUD6VNea0VwKcRGCHogBw==
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree3"
+                                            aria-expanded="false" aria-controls="collapseThree3">
+                                            U2FsdGVkX1/jytEBNTMxCfW+Lddb9Q4EsbFsQYhHEjw=
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree3" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
+                                            <p>U2FsdGVkX18jtKOyi27vSvW3XTTYEy406ImWJWplROiYPEKtEPCm1FFRreuGCpXIpO236P2kCuNXcczohNTSwkwdTSMPzbX5yHMF7wV+fQdGJQpO3nYlXIInAhz9y1yyt6j88ROVcZ/7yMoMPUlTRJ/6wON9X8WOVstFiR4+IKmNdduK7jzXSzaJmifBLT3mtdyo9Y/rgA1GSCzxN5j5CQ==
+                                                <u style="color: rgba(69, 93, 213, 0.297);"><a style="color: #4A90E2;"
+                                                        href="https://www.alten.fr/notices-dinformation-relatives-aux-donnees-personnelles/"
+                                                        target="_blank">U2FsdGVkX18Rd2qDsMvdDFdoEm7chvu09kqN53QV100=
+                                                        <i
+                                                            class="ti-arrow-top-right"></i></a></u>U2FsdGVkX18UAX+IEdrpnLMotIb8W2p39ZDtu6f7br3yQ4KDGPMGszzTYJ/csF6PtYvw8ofCX/7qMAEpen4IIAjpY9kFMixs5XbCf/JG2PY=
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>U2FsdGVkX1+NPQeXKWVYTZfvlGNgcmQ38YhAsgaKkkI=
+                                                        <b>U2FsdGVkX1968SvTMC7j8qu1Vq5uslXOJqQb82FO+hCKcvrDU/3D9aLUvunN+v151+UkRdIyVkI8Eel1E44M7RURoqFchlRwNvSi46d6PpZ8vb0VxtQNpejyATmKQIaJA1StRv5C2TKqPX8X7BkL6Cv0Y+7WDpU2RgPndjohPe0mKoiSyaAqzRPpyafFEzNnImqROxi8feI8zR9MPhRHTQ==
+                                                        </b>
+                                                    </p>
+
+
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX1/6b2A79UjAVUCeAj/pn8XKdBPn14mJI5s=
+                                                        <b>U2FsdGVkX1/B+BM7xnfEavM+HMHkrjFr/tUYa1NBLVJnqmg/WN6zhiMXVpR0XAywE3hs6QWhFJR0H+4vF/MjKas7zeaBIkYSiWCp97re3WZdjB5ra+eJot7j00XwLTMDrMGRk/B/gk8hyIC3biup/LPPuL4trn8zP+kNHB7pm4Idl0MfaTCkkxdwudkU4jpjLcjkfRDea/NBn+vQKZchUx28D54XyZ+MDgmxsa0w4XWGBQTsCA9ZNBRn3sXz6hCZqEi/4Drvv9/9rPrG+BoPudmuDioWqNtAECJeCztzdfB4XdOR1zMKTy2BqwIeiOFn</b>
+                                                    </p>
+
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19q306KZQ43KNmUqmFcFW9xVQE+5WrEFnQ7NN/PpMMCu2sWl3fgI5AK
+                                                        <b>U2FsdGVkX18NDW0+S2UYoTW1z08S73GTG4ZN4z/tR/TqjqsPox1ZWgZwhcG8TYApbl8fs0n38cWFnTUUbWD+PQViHIcQOxu5GK1h/hIre62lVkKhrXVynBOVBsmCNUBWa0CeDMt6jmPzHJr+3dnYkA1GYf/VPJSGM3WRmqtSKafcjZYDcQF4HfkTxcH3IlGBaWfaYkWg7Ze42vlJU5xdlwhtE9V3iNulT0MY74lrcZZRG5XktArmD1pO1Y1A5FidRD8EULy1iDp5VSgecIvfGDHB/jC3Lf0EZ1mU6IBOTXU=
+                                                        </b>
+                                                    </p>
+
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19aTbpVNshXX0QRaM9nlEvkvE6HpnHIN2cac680ROx6qn5QRhqzjUql
+                                                        <b>U2FsdGVkX1/54mT1ttJzHCq6fTPqA35ca3qetUxVuLej9iCqpcfO0JCTD0BpcqKO4B/y62WOG+M/O3qwMIhg3CdM/mKvQO5+9bTGd6QLlMMqfZIwtdkeKwxzbaR49AxuiOreE5+qiM75lECpOzAqan5vJQOUaPR9f7yDsZ1NRgms7zUjlqGAI9Z18kWtiU5iOecrRMHYr/uQ2y45nO9cRhlRJCx5xLrx5joxXbK8NXLdtjhhHDI/0lgQa8xmnJPXSGZp1UhC3H5XVh2/RIjBFlFO4OASvGF50d1Krr7y8/E=</b>
+                                                    </p>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour4"
+                                            aria-expanded="false" aria-controls="collapseFour4">
+                                            U2FsdGVkX1/8wefyQEDDranWELiVcESyaSo/xv/sv/0=
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour4" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
+                                            U2FsdGVkX19PDLJ4ST/Gd3rqaDMhKo3txHn7cih9gB9nHt8+n2zA29Z3FELPv41hCpwvcy+XekSYsI0gBfc5+A==
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class=" btn-outline-primary  accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive5"
+                                            aria-expanded="false" aria-controls="collapseFive5">
+                                            U2FsdGVkX19VZjw6XQxIgXutZF0moCLv6ShXLzaY13o=
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive5" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
+                                            <p>U2FsdGVkX1/QScfTlQYvNxFvsGg3kBugkrxS5LDKkI8CYCyEL9Hj9DRo2NZIVA8P4WO8r/FQEvNUM2x/o6QwKA==
+                                                <u style="color: rgba(69, 93, 213, 0.297);"><a style="color: #4A90E2;"
+                                                        href="https://www.alten.fr/strategie-rse/"
+                                                        target="_blank">U2FsdGVkX1+tF/4fpxsL/hzwoLYlLt/aAHue+iunMRw=
+                                                        <i class="ti-arrow-top-right"></i></a></u>
+                                                U2FsdGVkX1+GmnSHOXjjARoVO7MrbclUVVSyxqvh/ZA=
+
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>U2FsdGVkX1+RZEOaCkMVPGZw0OrGzC/MKzUYXyuOVKoTdPTkWP1Jcyj4FJuIDF36
+                                                        <b>U2FsdGVkX1+3YHQdMplFKIn3aJgA/ympDQcn6gnLB4p7mTdPQB8hgwZxYglG4jlYhxPgme4+ZyxZ4JhYOWBFQQ==
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX1/BOIBfXbB7LhtScIcwvlBazyvL6NP/rF0X8BEWPgz5UTDI+Ut2i/Qa
+                                                        <b>U2FsdGVkX18768NJGSIBInMzEab3QDjX9VgVGG9YzT958O9uno2lr3Bdas4njHUkjdO4u3F3BpQS7ZGqtt356Q==
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX19uoM2zLqiBTXTS2+/fETxu/4pwxfGaaWo=
+                                                        <b>U2FsdGVkX19jgJx7CwIdn58ApE83CDoHW2acSVKDCwAkJHFZgNdnIFjv1Wi7QprsA4YHBz1ezm2QkSyzAaj6CA==
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX18sV/WO1ZM/gxfn/bDpiElkp5FZ5P8qykc=
+                                                        <b>U2FsdGVkX181RmCVAh+nHAAgihI0FOZJA4Qxznm6b5kQOIoxyB4I5ORjItMfLiRE3u593O045Cae0zLwKNJ/ug==
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX1+hECrJklTsmzzl2k66uujQ0x8MQdUPbek=
+                                                        <b>U2FsdGVkX19NW0Ctkl5uOarthJbNRO5icJd40ei8fAyesR1wxk2DyYT6PuvBJFp8b83gtmj8fDUSjgTQO7nzZcWid2LRhyCqWtSiIjW/AHehe5yt+B0CNJoGXvrkv316Zr6UeaOX2PbHKcN2KNQXoCc08dpfK9qT3UgLttNaJWPd6yMDvFRM3Hb1l/m4/kcX
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>U2FsdGVkX18kFxv0z+wLSr7xswCnFkJTrz7YJ3T/Zx11PWSof3AiH3bwBORm4PjJ
+                                                        <b>U2FsdGVkX1+2o3hja6cyf/TK+U2kE7+XR6Y+iKPZ57sE/XDjbARIVyk4ecnlTfOSsteCIkBStMvHIpj7oi72CxmWekSFoYN/bnZg4X5ErCtZ0cx8lI1ztkuNMxOu3OQ/IaxlljkN68AMHi23ZyxOST4D3+P/KigkaJTQlkm1lz8=
+                                                        </b>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <section class="section-sm bg-primary">
+
+            <div class="container text-center text-sm-left">
+
+                <div class="row align-items-center">
+                    <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                        <h6 class="title text-light">
+                            U2FsdGVkX192vLZFERLOSPT5viiA4HscNL8BuCinwVqstHbotgKdsOvuzD1kU8xL2AIBx/iqVqL/15ECJQtBxg==
+                        </h6>
+                        <p class="m-0 text-light">
+                            U2FsdGVkX19gGNGPaQTuM+9PlK7Rr3Zk+OHFp6y+oO56AI180A8zV8tuscB/8VQ0ftwtnTKxg9gVZ8he7qeBtYKrQc9xcWNB2Kkdf0dc7QynbnAdwUO4tMgmcsDB0UDc
+                        </p>
+                    </div>
+                    <div class="col-sm offset-sm-2 offset-md-3">
+                        <a href="#contact"><button
+                                class="btn btn-lg my-font btn-light rounded">U2FsdGVkX19S7ly5J/fCoSRixjDlxWrRpML7N91LtCs=
+                            </button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="projets">
+
+            <div class="container ">
+                <p class="section-subtitle">U2FsdGVkX18EhTMhORXey/URXsQji94RNbipkaFK4zNmIv+iwTYvPR3aOwDT0OYi
+                </p>
+                <h6 class="section-title mb-6">U2FsdGVkX1/Nur3f6FkYoiF/48Cs4hS8b0E3ajGi0ShMQ0eUVnMMVYcYU5VS+0vp
+                </h6>
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="assets/imgs/giteadocker.jpg" class="d-block w-100 img-car" alt="..."
+                                data-nosnippet>
+                            <div class="carousel-caption d-none d-md-block bg-w" data-nosnippet>
+                                <h5>U2FsdGVkX1/cx7W27xJU7AjD5v85e+w4ic8YzksATz0=
+                                </h5>
+                                <p>U2FsdGVkX18NOl/ZOacw24L9lQEs+WPxSCxB+2IRhXowwgBoVL5vKr/ngnYFwENYXjtJ/OpsohsHrr1yayXiqGYsVDrsJ0BE+pCMkx33c175MYPCU0sZmpicnz2wJP4r3i7wfKZcY7px/lvaQ6BsMUJWBaL6pVxsXWjR57xvksqcherlQQvhjdqezvYjws82DvSh9rQvJ08nvZLMFmc9HGaLNNl3Ox++km8SA7QqyEEebcf9xvo3/fg2FPJYjfMGMEoVs8VTLdsPc9e/zsigETXvQuPnFBsJV6zejoIUUoxJciyfPEIBbFdan9qifjWD
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="assets/imgs/veliko1.png" class="d-block w-100 img-car" alt="..." data-nosnippet>
+                            <div class="carousel-caption d-none d-md-block bg-w">
+                                <h5>U2FsdGVkX19lj95c68wPxvvbDXZXJHFbMABnzBPvKwY=
+                                </h5>
+                                <p>U2FsdGVkX1+fIuI0kabywq/w4IrYp5AKkm0ALCjWxf+CiNQMyht7k8My+aVK3VkI5akAmD1+iYxGDQhOGS5VQWCaWmm8xXGZbtETPb4LViCtRxVpl4FWnVh7kF9eLmXsksp7Mq6cuYGOSMniKfgsUufZLZATPKHsqhOjdNskirfWrSQtLAvOYglX+lQeImL3Mn6u7FhkM4wwfaPBlqIkzB91DwuwxJ7antEp5MXbBeqXTq0IxdDQRdoDELCjWFpJ
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="assets/imgs/giteadocker.jpg" class="d-block w-100 img-car" alt="..."
+                                data-nosnippet>
+                            <div class="carousel-caption d-none d-md-block bg-w">
+                                <h5>U2FsdGVkX18NdvYoRpacZJnAC8yJcO44Lw9P9gFEc0Jilik9cygu6+JKVPMAyZ/W
+                                </h5>
+                                <p>U2FsdGVkX1/DIb3IOv9EUBp7gQ46kIz0eIyCbHWr7OQkMN3RKEVKGSwDL1TKwH7OORpGCFeAuBp8ZqJV/UWY8WaweENCwTgnvor8JhNu6Os=
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">U2FsdGVkX18Rwm5s93VUF2A71W1I5B8uOh5ZNCkM3OQ=
+                        </span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">U2FsdGVkX192865uUWpKDuprjEiteRMvenMAOa40ZtY</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section" id="missions">
+            <div class="container">
+                <p class="section-subtitle">U2FsdGVkX183eFEDLWz3MWa2gk2XMw6hsU0FFo0RXAYHq9fqOofrPm5FoqcExSno
+                </p>
+                <h6 class="section-title mb-6">U2FsdGVkX1+BxbypJ4fJS20IBJmvq2yjpqdwjwHtDbo=
+                </h6>
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/report2.png" style="border-radius: 0px;"
+                                    class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <h6 class="testimonial-card-title">
+                                    U2FsdGVkX19AdVnXcMB3MUqPALn+4NHP3/G6rLy+S0gSgKuS0xqzGMVuiEPNIJHw
+                                </h6>
+                                <p class="testimonial-card-subtitle">
+                                    <td>
                                         <ul>
                                             <li>
-                                                <p>Dénomination : <b>Alten IT</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Adresse (Siege social) : <b>40 AVENUE ANDRE MORIZET 92100
-                                                        BOULOGNE-BILLANCOURT</b>
+                                                <p>U2FsdGVkX18Q/O6cms0NcalfPUJJvc1TdVwVV3F7keI=
+                                                    <b>U2FsdGVkX1+1MRKSDlICgGc/vCHIjQVzc1QVSf5HrdcawCTEdCV0hNkk4cDXnbtr7+VbusP8CEXOfOA8PGkdWASF6IomIgw5JNH4mg9eMF/N8L6AmVO7hySowoqicrO6ry39wgGiQaPrMzpk73DyRdRprpsORuG5ejZp4cUhl8OkNO0ECeKQsHdvFoXslOVx
+
+                                                    </b>
                                                 </p>
                                             </li>
                                             <li>
-                                                <p>Forme Juridique : <b>SA à conseil d'administration </b><u
-                                                        style="color: rgba(69, 93, 213, 0.297);"><a
-                                                            style="color: #4A90E2;" target="_blank"
-                                                            href="https://annuaire-entreprises.data.gouv.fr/entreprise/alten-alten-348607417#:~:text=La%20soci%C3%A9t%C3%A9%20ALTEN%20(ALTEN)%20a,elle%20%C3%A9tait%20cat%C3%A9goris%C3%A9e%20Grande%20Entreprise.">Ref.
-                                                            <i class="ti-arrow-top-right"></i></a></u>
+                                                <p>U2FsdGVkX1/qah9AIAPI1rm7dD7Jf9b9cymNwqcjCKxLqLmWlXXRmdHEWdXZ3fFK
+                                                    <b>U2FsdGVkX1+I6mlRMlp1w0IbWhptscE+vPziTIUlsisQM+lwXBcrkDQ8XvxE7uxMv9OOnBpahNQF97nztVBph2qJRZGpZb0kOjUh/A1Br2Ouh89bIBegOmKJWJEtESLbmFye4yO2jB6UpEHaxf0iDAp/2U3YxnPHki4G9SDz1GcXae4wYhgCUmmQ4Q5vUDcftnze2pDHXlpi4lPGnnMF5yKk3xPqam8rWAbwRTyyUH4=
+                                                    </b>
                                                 </p>
                                             </li>
                                             <li>
-                                                <p>Taille : <b>Grande Entreprise</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Effectif : <b>≥ 5000 (2021)</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Secteur d'activité : <b>Ingénierie et Services IT</b></p>
+                                                <p>U2FsdGVkX1+mX+FLpI0vpDWDShtc47MBve1UOEBiuYaxr9fMjb/iBn28rYvbWVXt
+                                                    <b>U2FsdGVkX19I8JG3553GG05RPpk5UBh55ieTSNeEeCHQFd3RggateYX00xzkk2lpbdxOZXFt+VgQ17j3Fj9GsXAylPjxxgf5K+2RQ3GsHDkJStBsELdSAW6nNJGDI7F9iMPPECsyUI3+m82j98Cu36VtRcTcNXaPXayeghnNipJZsqxpP0kzPm8QEQvqLw9kAR+EB9nC34ZMSC+bRVnL8kNoG8rDS7tXlvZK9KzjulSINtphVCxi/gJpvXNk2Lv1QvK0BoRgBnYG1k4ER9qZwCosqFzFNzYeA2VZCHdT0//zaR/8Hd8bGOJOeSAx643U7r2EpdrN93e2h1MRpGjMIzKeV2ouEwIAxc30otTpioBzm1t797F+FUwYh2MR6cg9
+                                                    </b>
+                                                </p>
                                             </li>
                                         </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false"
-                                        aria-controls="collapseTwo2">
-                                        Historique
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo2" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
-                                        <p>Fondée en 1988, ALTEN est une multinationale française spécialisée en ingénierie, conseil en technologies et services numériques. Elle est introduite en bourse en 1999 et s'implante en Asie et aux États-Unis à partir de 2012. Malgré la crise sanitaire, ALTEN a continué ses acquisitions en France et à l'international, représentant environ 65% de son chiffre d'affaires en 2021. En 2024, elle acquiert Worldline, filiale d'Atos.                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false"
-                                        aria-controls="collapseThree3">
-                                        RGPD
-                                    </button>
-                                </h2>
-                                <div id="collapseThree3" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
-                                        <p>ALTEN a créé des notices RGPD (Règlement Général sur la Protection des Données) <u style="color: rgba(69, 93, 213, 0.297);"><a
-                                                    style="color: #4A90E2;"
-                                                    href="https://www.alten.fr/notices-dinformation-relatives-aux-donnees-personnelles/"
-                                                    target="_blank">Ref. <i class="ti-arrow-top-right"></i></a></u> pour
-                                            :</p>
-                                        <ul>
-                                            <li>
-                                                <p>Candidats: <b>consentement pour le recrutement, droits d'accès, de
-                                                        modification et de suppression.</b></p>
+                                    </td>
+                                </p>
 
-
-                                            </li>
-                                            <li>
-                                                <p>Collaborateurs: <b>gestion des données personnelles du personnel,
-                                                        droits étendus, conservation jusqu'à 5
-                                                        ans après le départ.</b></p>
-
-                                            </li>
-                                            <li>
-                                                <p>Clients et prospects: <b>gestion commerciale, droits similaires,
-                                                        conservation jusqu'à 3 ans après dernier
-                                                        contact.</b></p>
-
-                                            </li>
-                                            <li>
-                                                <p>Fournisseurs et prestataires: <b>gestion contractuelle, droits
-                                                        similaires, conservation jusqu'à 5 ans après fin du
-                                                        contrat.</b> </p>
-
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseFour4" aria-expanded="false"
-                                        aria-controls="collapseFour4">
-                                        Externalités
-                                    </button>
-                                </h2>
-                                <div id="collapseFour4" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
-                                        Externalité positive et négative de Alten
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class=" btn-outline-primary  accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseFive5" aria-expanded="false"
-                                        aria-controls="collapseFive5">
-                                        RSE
-                                    </button>
-                                </h2>
-                                <div id="collapseFive5" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body  p-3" style="border: 1px solid #dee2e6;">
-                                        <p>Alten met en œuvre plusieurs initiatives RSE <u
-                                                style="color: rgba(69, 93, 213, 0.297);"><a style="color: #4A90E2;"
-                                                    href="https://www.alten.fr/strategie-rse/" target="_blank">Ref. <i
-                                                        class="ti-arrow-top-right"></i></a></u> :</p>
-                                        <ul>
-                                            <li>
-                                                <p>Gouvernance RSE : <b>Carrière, innovation, et responsabilité.</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Éthique et conformité : <b>Programme de conformité global.</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Qualité : <b>Amélioration continue et audits.</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Sécurité : <b>Santé et sécurité des collaborateurs.</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Environnement : <b>ISO 14001, énergie verte, réduction des déchets et
-                                                        du papier.</b></p>
-                                            </li>
-                                            <li>
-                                                <p>Égalité femmes-hommes : <b>Scores élevés en égalité
-                                                        professionnelle.</b></p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/kpi2.png" class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <h6 class="testimonial-card-title">
+                                    U2FsdGVkX19bzi/LWjCc06xz86tYAhZ6QG/JfGaHPSf4geALnzFXGPuZWSKnbgYs
+                                </h6>
+                                <p class="testimonial-card-subtitle">
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                <p>U2FsdGVkX18AAtj99uHDBzFjj6CuM2oTscov8edb9wg=
+                                                    <b>U2FsdGVkX18YtbzuMPG8Urdc448bMliQ+eN/rvAQG+IG5kcdoaaGptd51zZXrwb9omZ593kmWXwizGWIMPpGNd3fNc5srFKrfTZXwxuZ9wrcz1mGZVEma52EhnsYgenDj/FhHbVSIK8rRiyj9MBrYVT7fZpZqujd6XMYqXdqcmZLJZxCFA9Xv+2dsav9SY2kNoDxx4HJYY4Qfiu67nEMPA==
 
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1+mbAnFMhOrv2Ks8K/dMITK8ZQoq4Dc/+PrvNpwPwW+4S6Rls2EoYH7
+                                                    <b>U2FsdGVkX19hLH6tDDXlQRT7P7MqkJ8arVxr6CJv9awPRbEjrhU9HvYMe3gwHsOy1Es+ChfTu6EE5k0Bd7z5/Q==
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX18dlmNWdmdsJWdEUR0Lg5mnaWped7rUv5ChVHumsue9+8GEbLFjNX0Y
+                                                    <b>U2FsdGVkX1/fdxketrl0yK2qJ0bPIYyxyJhxnbM2UF7Fy8TNaj+kDgLSOI34/2PO7us88BfCcmUhjnUYlvBTP322kIanxTLP2UMmsLQZME+cnwDwbAiyvJWRE2+jpyJaV2x1bB2Tj6YGXYyzhQ/vRhtZ9RdVGjEVcU7ALwq1EhQmtHAEe5Rel1v3fhlC2mMHmxkjXGy4ycBy6ULNNfluVh7Y0TvMpL6lRZZQKoxoLfAmUWwEx0XXbZB/rwtEHIFQKto5lRKN+qD3PX6nXq4oL9a8KrPkRxldrP03CcHweAGnHrKp/+zXlx8DA0dKc2NrGY41nMwRwcpqEKGz390iVL1f/2U5PxvMcrN9Ky04jZyrXkcLoXBvIiQj2PCm596q
+                                                    </b>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </p>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/vulnerability.png" style="border-radius: 0%;"
+                                    class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <h6 class="testimonial-card-title">
+                                    U2FsdGVkX1/ye3zI99+DmyqD4IyxvtgUsXeMs7EA+MoX9/8iW50RXPXEbk0anrD2u2HHZDqIbLJxTIsNDR8ypA==
+                                </h6>
+                                <p class="testimonial-card-subtitle">
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                <p>U2FsdGVkX1/Vpct0IaLEJADg7FXraayK8ct44nvxYi8=
+                                                    <b>U2FsdGVkX19KYEabSumxqSgYSbDZLbMDnouyE/DZpX7zXbQ+6FuH2oqSXu+nPEANVtJ5R0lWOc813clLOjmV+4LC1Szj9AFvTrUuveBfwCXHcycRzyuV45iQ15Yn2DHoRwDk8OELOP5L7hYHZpi77brRl7pqsZVzkk0FEdgIUeOupcHOfhqObCABGF49jt+9lvUbtnR07qVLY2Ix+NCNeqJmanGMZaVmVpEi/a8cxkE=
 
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1/GK62LJDtCk+cqJEo+8TIoQvbyVovgfuJdZbt7HMDtYZfvChaHGKkF
+                                                    <b>U2FsdGVkX18mpUeMyC6vGz3Rw03Am48tllgOw+VF2S5e1ANtxN1u4GsZL/5YcsVEsK0WMfm/vFOgjx/KD4qvQErrx3dWu9CKfpbyvfTfmn96AgYilvGpdaaKQ8cyv8oLrEu9Qi/fFOaYuNquASQ/OsQGbhs4JWqcffPjYzUo5OfwIp1WgT7GSUu1Q/USN6QJaNS6ETGspaQoXJQ+ci2ZtA==
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1+I70DGD6Y1m6WPjL2d/LKpm1oGMu8Gy5WQxqlpkb6VlG7AZPOt7xc9
+                                                    <b>U2FsdGVkX19f6lqyZR7kXpN5s4OOdK88LgTcEzcMakNpBVZ7IBOL07DChtWNNfxCUDMRzEZqdooXXxXTQsUEWQef9oj1tsQXnGJdPjBe/aCcoroX9ar6b9OTY3FR7DL3GzTxPdrK9BTfjGb9lH2BqdvF/eEprzRxVa5oYOtGMXUuX42uBc0VvnxFApqQ6+AsWVdVMrU6p9/ao5MIHHLZplIwKaV1TIxvRm2aucQJ1Iy7MU/QGP+9Q+Eadjqtd3NmD7uU6tiXly192Pl26L/erVJxcTJGjVLL4WNAVMPzEHgo00+lopFywqH3gkPYRIcp1aqHMDNs5/5UUvwAXPn72RUwo+vJFlXQKDuX+wgTn1E=
+                                                    </b>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </p>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/automation.png" style="border-radius: 0%;"
+                                    class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <h6 class="testimonial-card-title">
+                                    U2FsdGVkX18TvuxQACREVSPCCtz3ygHwdBlf8yCY64WbtL8SeoTd6SHAhnLDNazLJ2uZpdifoPRe1fhd3k7cyUvmSmY2A0hLwrIktd+S2EE=
+                                </h6>
+                                <p class="testimonial-card-subtitle">
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                <p>U2FsdGVkX1/ODb1g+pXZGMAjcKNsWaPSlhSiFnAUJX8=
+                                                    <b> U2FsdGVkX18N8s8HlskLaVs07Ek70Hz8fHrOv3YWEtCSSCkxGz9TwjpWTj3KYROCA15q3HpkJ6l7IpWR+5yi2by3M++7Ot4usTIbyMepbsrTA3J5hVR+Xg33meJJflhosORaNrmuihRTiymfKFBCi2j1UgRNRW0mu/J8B30whdiZWdv/wm1zcIz3gdqYUIjAFXUn9QmJX50JQ3chfXFfFnNn66LkIgYRX61b9s5BnyGLmZn2C+TVDV/WWhKaZYVTIPm6VNttKkwgb0b6vG4d3POTBclWjF6IGI+vz/9zA5xKzJwiGNaZjQPdbaBYpW5n1gOHCOinfrrGh1sTN5lxufKFtgQnoHXHCqtL3XBtL+6UQzKAWyQEnG4e+Iqv3JP/
 
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX19AYmozLUbR9Qy9dLcjR6kzWGNvfEDesC0Jmk/ZGkID8vCR3hQaP0sJ
+                                                    <b>U2FsdGVkX1/sqEJFhe/PfCve/xpSssq6uo1XSogdETnzpMVB4Nm60BUWCMyLLc5+QMJLOxZVH3OEL0oM2QxXrS2JCvjLtnQL/wzj0ykMaxMn0AXaVL5E6gnDRrDXILU1pCXuJx92uPs/Ab+w7MpSFs/Q64vGSQpktVX022JCGVeR66049YXtWiBiYo3x1TbfRqZkrCc1C7LrLXuMAhA63w==
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1+uOA6aEMf+/DXoTAItMwgTmjO7DKoxPPR95ucxQSDdE9RZK+gJsp7U
+                                                    <b>U2FsdGVkX19wySxI+ByrYGbhuHDYGquOQ6++nGO5h+4X3gUwilaEWMqFgu6fJqTtIoSVbz3Qx7uc1cvs14DO3aHIN22EmPcXw98RRmAkBmpmcpjORYZKU3jkjbWKSV7ia1q5rjFCjGD4Ze9FwnZkdzKhhYyfewhJih2sir7SW3w=
+                                                    </b>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </p>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/device.png" class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <h6 class="testimonial-card-title">
+                                    U2FsdGVkX19Uy8Uh9SAtEPifikurJdVkXM8OvcXniCZpAejA230rxQAiJiaWSjXCxgx8E5/PN4qkVVWAB+COgFTq4L6GkkoeD2/iVRel/R4=
+                                </h6>
+                                <p class="testimonial-card-subtitle">
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                <p>U2FsdGVkX188Gggkp7Hr6o2IAxQibqDYiz7ex8a/N+M=
+                                                    <b> U2FsdGVkX1/8vwInRuj2lJ9P+8q7Bb/yCJsUsWsjXh3OZRUg5pxxoC7pVVc5eV+/27NsxRdzoOJfh90J+dbmdicwVV96zRHYUrnJOKeqK4FtjDXMkGV82EOuYwlcMEJpdvU1Nug8AbzBOH1FRJn6tbBCGB9AUd/jZ2amKj6hiUW4+3abdHHoSxeQgdXjg8iR3Rr/fCfM30gk1w6wI7Yq4qgdrpBVZODyyfbkhSeMl3c=
 
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1+sGyvpSL6lTmbYSrlbnLPaI0Pha99aHQF7oogiOMWDoEzkq43+DEt/
+                                                    <b>U2FsdGVkX1+kB6knjCFzAM+Gs9UaRVUtMiet39jMR+sV+BzI2PL/UE8MRv/Hh60NCecYC72A08LDkHrX/sFgsdhPLb1IllkbkJy+C/EELMOCTojMTd4fqN18rWAjL3JeKUFJW0+jJEaWy6hejndpIqidmodCgSK7tF+OaDVavDlmSp3zihDwnYCzJta4/KwR
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX18GE+b9eFpykxAwU0KyEcYcowQsICY1LkZFbtQL6i/wJMUUeoEfpbpe
+                                                    <b>U2FsdGVkX19MINDetY21i71IIW/VM/PX04vuCcCZFxpOl/5BGy5/B5oAS4/mnFU2gZpDM6eZC8oAVzb+9tLDoV8Vfe69uRhasAPUnxtdEJiOc4u3znqV8XU4xneNuxWnpdvWBrjDzjbpSKSLlz7iZJ1BH5i/D+o5WWHVwxalUOpzpWUFq19P5tiJB5fzsiUO
+                                                    </b>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-img-holder">
+                                <img src="assets/imgs/access.png" style="border-radius: 0%;"
+                                    class="testimonial-card-img" alt="#" data-nosnippet>
+                            </div>
+                            <div class="testimonial-card-body c2-w">
+                                <h6 class="testimonial-card-title">
+                                    U2FsdGVkX1+Zby8XxnYVyFBTkbUvkU/RkiWMQses5U0229GnNysdH/aG1i/4QPHeeECmNx3ISXG87nAiJJz9/RuWXXUuAef+5PP6Wnjmgmk=
+                                </h6>
+                                <p class="testimonial-card-subtitle">
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                <p>U2FsdGVkX1/hB4JPgK4DNB+Dn/bLhv8ckJOPoFqp3uY=
+                                                    <b>U2FsdGVkX19ZMLEBwUUkKfKTulQ53l2mmn19ryDFRdnxWXx3623D+FavXc90tLi2xwd9Zz5TDVqHOee8rUb6PmgombJrZKnssBroCWmCdzkJIPJR6mX+kkpgs4WuDo4d61gB4T7bOXnla/jzmsDoqTBDSSuB9Brmo3ocLALAF93SiX8xJSY6rqp1SE2t+VNmIMV+G0swZvHvpSJmnwqu8q0x0EwWgXylAIVxlFtTXjEnrivCZknMxqgstVt6vH9265Sxgo5PIKvt9fKQX2N5Ko9+VfXbknT6IqDy08E9iiXO6JpKjWO7fsNGVVmP+A/wiOeUnlmSOFnXW4tHSI0MXe8egJ958tSC4ZXQaMtWfDnCbo5DaeZf67QhZulVfxT7TsdLzqjoUkXs/M0ld8UKVQ==
+
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1+ldE3+41vSPIPrMXNnoERbLiHRlgYagWqSMG4QcDmFeT24R9ntqRuV
+                                                    <b>U2FsdGVkX1/2HTKIPHUrUpduxWm5qtsL1u4n9qEyDeqUIfTebgy+KbNXUeFduIXATcALtKLblsEXiLflRLt+l3y62j4qXjXROI2fyusFVJ4=
+                                                    </b>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>U2FsdGVkX1/JJcucu604a+hVY4acZQqWuiu+I19TfqFBKimnQSXMF2rGEiYhwyoW
+                                                    <b>U2FsdGVkX1+EqcZIwKVNOKJ5lVRT5eN//oP5wTYUd69SXx+YYbMqgxK4tQ/hcJ+vuylzhFn2hdQ7c+8wABGUgX4xJQdh9ZyQLx2D6Yoec1T1RIgTtt2ji9HIt1rASyxFYlelRhIGzrOrgM0hZ4YfQOJ52rC/X8tNsXwDXDICZX8otNmqTLhNavFpuLMtPflK
+                                                    </b>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+        </section>
 
+        <!-- contact section -->
+        <section class="section" id="contact">
+            <div class="container text-center">
+                <p class="section-subtitle">
+                    U2FsdGVkX19Hlmq4SbXyBQTOuptpXLEwixLhnIXN5wt1aWucj9oFXc1Mq38DQCnQkHunTXQVu/Zei0ctMizx/Q==
+                </p>
+                <h6 class="section-title mb-5">U2FsdGVkX18yFKuoWzLsGpSSemEdrhceCmw8o66a2oM=
+                </h6>
 
-        </div> <!-- end of container -->
-    </section><!-- end of entreprise section -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Vous voulez travailler avec moi?</h6>
-                    <p class="m-0 text-light">N'hésitez pas à me contacter, je suis ouvert à toute proposition.</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <a href="#contact"><button class="btn btn-lg my-font btn-light rounded">Contact</button></a>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-
-
-
-
-    
-
-    <!-- blog section -->
-    <section class="section" id="projets">
-        <!-- container -->
-        <div class="container ">
-            <p class="section-subtitle">Mes projets à l'école.</p>
-            <h6 class="section-title mb-6">Projets étudiant</h6>
-
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner ">
-                    <div class="carousel-item active" data-bs-interval="1000">
-                        <img src="assets/imgs/giteadocker.jpg" class="d-block w-100 img-car" alt="..." data-nosnippet>
-                        <div class="carousel-caption d-none d-md-block bg-w" data-nosnippet>
-                            <h5>Projet Gitea</h5>
-                            <p>Ce projet implique deux équipes (développement et production) et se concentre sur l'envoi
-                                et le déploiement d'un code source, avec un accent sur la sécurité et l'automatisation.
-                            </p>
+                <form action="https://formbold.com/s/6Q4Pv" class="contact-form col-md-10 col-lg-8 m-auto"
+                    method="post">
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="text" size="50" class="form-control" id="name" name="name" placeholder="Un nom"
+                                required>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Un Email"
+                                requried>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <textarea name="comment" id="comment" rows="6" class="form-control"
+                                placeholder="Un message." required></textarea>
+                        </div>
+                        <div class="form-group col-sm-12 mt-3">
+                            <input type="submit" value="Envoyer le tout" class="btn btn-outline-primary rounded">
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1000">
-                        <img src="assets/imgs/veliko1.png" class="d-block w-100 img-car" alt="..." data-nosnippet>
-                        <div class="carousel-caption d-none d-md-block bg-w">
-                            <h5>Projet Veliko</h5>
-                            <p>Ce projet vise à permettre à plusieurs utilisateurs de rechercher des vélos électriques
-                                ou manuels tout en garantissant leur sécurité.
-                            </p>
-                        </div>
-                    </div>
+                </form>
 
-                    <div class="carousel-item">
-                        <img src="assets/imgs/giteadocker.jpg" class="d-block w-100 img-car" alt="..." data-nosnippet>
-                        <div class="carousel-caption d-none d-md-block bg-w">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
-        </div><!-- end of container -->
-    </section><!-- end of blog section -->
+        </section>
 
-    <section class="section" id="missions">
+
+        <!-- footer -->
         <div class="container">
-            <p class="section-subtitle">Mes missions en entreprise</p>
-            <h6 class="section-title mb-6">Missions</h6>
+            <footer class="footer">
+                <p class="mb-0">
+                    <script>document.write(new Date().getFullYear())</script> &copy;
+                </p>
+                <div class="social-links text-right m-auto ml-sm-auto">
+                    <a href="https://www.linkedin.com/in/e-elie/" target="_blank" class="link"><i
+                            class="ti-linkedin"></i></a>
 
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/report2.png" style="border-radius: 0px;" class="testimonial-card-img"
-                                alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <h6 class="testimonial-card-title">Rapport | Février 2024</h6>
-                            <p class="testimonial-card-subtitle">
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <p>Objectif : <b>Création de rapport automatisé sur les connexions administratives
-                                                </b></p>
-                                        </li>
-                                        <li>
-                                            <p>Moyen Utilisé : <b>JavaScript, Microsoft Azure, Service Logic App, Outlook, KQL (Keyword Query Language), Quickchart</b></p>
-                                        </li>
-                                        <li>
-                                            <p>Résultat Obtenu : <b>Rapport automatisé contenant des graphiques du taux de connexion par département et des fichiers CSV des utilisateurs administrateurs de leurs machines.</b></p>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </p>
-
-                        </div>
-                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/kpi2.png" class="testimonial-card-img" alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <h6 class="testimonial-card-title">KPI Automation | Mars 2024</h6>
-                            <p class="testimonial-card-subtitle">
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <p>Objectif : <b>Automatisation et affichage de KPI (Key Performance Indicators) de l'équipe Security Risks
-                                                </b></p>
-                                        </li>
-                                        <li>
-                                            <p>Moyen Utilisé : <b>Microsoft Power BI, Automatisation Excel</b></p>
-                                        </li>
-                                        <li>
-                                            <p>Résultat Obtenu : <b>Tableau complet, personnalisable et facile à lire avec graphiques entièrement automatisés et dynamiques des performances de l'équipe Security Risks. </b></p>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </p>
+            </footer>
+        </div>
+    </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/vulnerability.png" style="border-radius: 0%;"
-                                class="testimonial-card-img" alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <h6 class="testimonial-card-title">Vulnerability management | Février 2024</h6>
-                            <p class="testimonial-card-subtitle">
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <p>Objectif : <b>Automatisation, affichage et gestion de la récolte de nouvelles vulnérabilités sur les entités
-                                                </b></p>
-                                        </li>
-                                        <li>
-                                            <p>Moyen Utilisé : <b>avaScript, Mandiant API (Google), Power Automate, Power BI, Automatisation Teams </b> </p>
-                                        </li>
-                                        <li>
-                                            <p>Résultat Obtenu : <b>Ajout automatique de nouvelles vulnérabilités dans un fichier Excel, affichage et signalement des vulnérabilités les plus critiques.</b></p>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/automation.png" style="border-radius: 0%;"
-                                class="testimonial-card-img" alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <h6 class="testimonial-card-title">SOC Action automation | Fevrier 2024 - Aujourd'hui</h6>
-                            <p class="testimonial-card-subtitle">
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <p>Objectif : <b> Automatisation des actions d'identification, de remédiation et de signalement du SOC (Security Operations Center) avec mise en place d'une nouvelle API
-                                                </b></p>
-                                        </li>
-                                        <li>
-                                            <p>Moyen Utilisé : <b>Microsoft Defender, Azure Sentinel, Entra ID, ServiceNow, Mise en place de l'API</b> </p>
-                                        </li>
-                                        <li>
-                                            <p>Résultat Obtenu : <b>Le projet est actuellement en cours de mise en place.</b></p>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/device.png" class="testimonial-card-img" alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <h6 class="testimonial-card-title">Non-compliant devices | Mars 2024 - Juillet 2024</h6>
-                            <p class="testimonial-card-subtitle">
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <p>Objectif : <b> Identification automatique des appareils non conformes aux règles mises en place et gérés par le SOC
-                                                </b></p>
-                                        </li>
-                                        <li>
-                                            <p>Moyen Utilisé : <b>Microsoft Defender for Endpoint, Microsoft Intune, Azure Logic App</b> </p>
-                                        </li>
-                                        <li>
-                                            <p>Résultat Obtenu : <b>Rapport automatisé des appareils onboardés mais non gérés.</b></p>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/access.png" style="border-radius: 0%;" class="testimonial-card-img"
-                                alt="#" data-nosnippet>
-                        </div>
-                        <div class="testimonial-card-body c2-w">
-                            <h6 class="testimonial-card-title">Penetration testing | Juillet 2024 - Aujourd'hui.</h6>
-                            <p class="testimonial-card-subtitle">
-                                <td>
-                                    <ul>
-                                        <li>
-                                            <p>Objectif : <b>Automatisation des tests de pénétration sur des équipements utilisant des protocoles nécessitant des mots de passe et exposés dans le réseau déployé à l'international
-                                                </b></p>
-                                        </li>
-                                        <li>
-                                            <p>Moyen Utilisé : <b>Microsoft Azure VM, Bash, nmap, tâches cron</b> </p>
-                                        </li>
-                                        <li>
-                                            <p>Résultat Obtenu : <b>Identification de nouveaux appareils, repérage et tests automatisés.</b></p>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section>
-
-    <!-- contact section -->
-    <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">Mon point de communication entre vous et moi.</p>
-            <h6 class="section-title mb-5">Contact</h6>
-            <!-- contact form -->
-            <form action="https://formbold.com/s/6Q4Pv" class="contact-form col-md-10 col-lg-8 m-auto" method="post">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" id="name" name="name" placeholder="Un nom"
-                            required>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Un Email"
-                            requried>
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control" placeholder="Un message."
-                            required></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Envoyer le tout" class="btn btn-outline-primary rounded">
-                    </div>
-                </div>
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
-
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0">
-                <script>document.write(new Date().getFullYear())</script> &copy; Elie E
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="https://www.linkedin.com/in/e-elie/" target="_blank" class="link"><i
-                        class="ti-linkedin"></i></a>
-
-            </div>
-        </footer>
-    </div> <!-- end of page footer -->
-
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- x1 js -->
-    <script src="assets/js/x1.js"></script>
+</body>
 
 
 
-    <!-- Setup and start animation! -->
-    <script>
+<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+
+<script src="assets/js/x1.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"
+    integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    function startAnimation() {
         var typed = new Typed('#element', {
             strings: [
                 "Étudiant en BTS SIO SLAM à l'ORT Montreuil",
@@ -1043,9 +1261,102 @@
             backSpeed: 20,
             loop: false
         });
-    </script>
+    }
+
+    function encrypted(decrypted, secretKey) {
+        try {
+            return CryptoJS.AES.encrypt(decrypted, secretKey).toString();
+        } catch (error) {
+            console.log(error)
+        }
+
+    }
+
+    function decrypted(encrypt, secretKey) {
+        const decrypted = CryptoJS.AES.decrypt(encrypt, secretKey);
+        const decryptedText = decrypted.toString(CryptoJS.enc.Utf8);
+        return decryptedText
+    }
+
+    function traverseAndModify(node, passkeyval) {
+
+        try {
+
+            if (node.nodeType === Node.ELEMENT_NODE && (node.tagName === 'SCRIPT' || node.tagName === 'STYLE')) {
+                return;
+            }
 
 
-</body>
+            if (node.nodeType === Node.TEXT_NODE) {
+
+                if (!/^\s*$/.test(node.nodeValue)) {
+                    let texte = node.nodeValue.trim()
+                    node.nodeValue = decrypted(texte, passkeyval);
+                }
+
+            } else {
+                node.childNodes.forEach(child => traverseAndModify(child, passkeyval));
+            }
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    document.getElementById('myForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        let keyval = document.getElementById('keyvar').value
+
+        // Essayer de decrypter avec la clé fournit : 
+        let exact = "Hello"
+
+        if ("udzqnkdeiodn" == decrypted("U2FsdGVkX1/5CcToBC+pt4PcWeUgz3R9SGGIO5+4abI=", keyval)) {
+            console.log("Decrptage Success", keyval)
+
+            // cacher le passkey
+            document.getElementById('passkey').style.display = 'none'
+            document.getElementById('passtr').style.display = 'block'
+
+            // decrypatge du texte
+            traverseAndModify(document.body, keyval)
+
+            startAnimation()
+
+
+        } else {
+
+            document.getElementById('alert').innerHTML += `<div class="alert alert-danger" role="alert">
+                La clé de chiffrement est incorrect.
+              </div>`
+            console.log("Decryptage Error")
+        }
+
+
+    });
+    
+
+    function toDataURL(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            var reader = new FileReader();
+            reader.onloadend = function () {
+                callback(reader.result);
+            }
+            reader.readAsDataURL(xhr.response);
+        };
+        xhr.open('GET', url);
+        xhr.responseType = 'blob';
+        xhr.send();
+    }
+
+    toDataURL('/assets/imgs/pdp2.jpeg', function (dataUrl) {
+        console.log('RESULT:', dataUrl)
+    })
+
+    
+    
+
+
+</script>
 
 </html>
