@@ -18,9 +18,9 @@ function decrypted(encrypt, secretKey) {
 }
 
 let listeTexte = [
-    
+    "Tableau de synthèse"
 ]
 
-/* for (i of listeTexte){
+for (i of listeTexte){
     console.log(i, encrypted(i, keyvalue))
-} */
+}
