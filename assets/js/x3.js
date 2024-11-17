@@ -1,6 +1,32 @@
 // Configurations
-const sections = ["profil", "alternance", "parcours", "entreprise"];
-const sectionTimes = [10, 10, 10, 10]; // Temps en secondes pour chaque section
+const sections = [
+    "maison",
+    "profil",
+    //"alternance",
+    "parcours",
+    "formation",
+    "personel",
+    "certification",
+    "entreprise",
+    "entreprisepptx",
+    "missions",
+    "projets",
+    "contact",
+];
+const sectionTimes = [
+    8,  // maison
+    15, // profil
+    //0,  // alternance
+    8,  // parcours
+    50, // formation
+    50, // personel
+    50, // certification
+    10, // entreprise
+    140,   // entreprisepptx
+    70, // missions
+    100,// projets
+    25  // contact (conclusion)
+];
 let currentSectionIndex = 0;
 
 // Timers

@@ -1,6 +1,6 @@
 /* Fichier pour donner le resultat d'un cryptage et d'un decryptage */
 
-let keyvalue = ""
+let keyvalue = "ufhEWKbts#==xy#.]EL'Z!.v}1F7&Mi+%JN}@TIJDH{HZQ@8+6"
 
 function encrypted(decrypted, secretKey) {
     try {
@@ -18,7 +18,7 @@ function decrypted(encrypt, secretKey) {
 }
 
 let listeTexte = [
-    "Tableau de synthèse"
+    "Format PowerPoint"
 ]
 
 for (i of listeTexte){
