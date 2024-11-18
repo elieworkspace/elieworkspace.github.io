@@ -1438,33 +1438,62 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-                background: #333;
-                color: #fff;
-                padding: 10px;
+                background: rgba(145, 145, 145, 0.7); /* Fond discret */
+                color: #ccc; /* Texte discret */
+                padding: 5px 10px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 z-index: 1000;
+                font-size: 12px; /* Police plus petite */
             }
+
             .progress-bar {
-                height: 10px;
+                height: 6px; /* Taille réduite de la barre de progression */
                 background: #4caf50;
                 transition: width 0.5s linear;
             }
+
             .progress-container {
-                width: 80%;
-                background: #ccc;
-                height: 10px;
+                width: 70%; /* Conteneur plus petit */
+                background: rgba(255, 255, 255, 0.2); /* Fond de la barre de progression discret */
+                height: 6px;
                 margin: 0 10px;
             }
+
+            .timer-controls button {
+                background: none;
+                border: none;
+                color: #ccc; /* Texte discret pour les boutons */
+                font-size: 14px; /* Taille réduite du texte des boutons */
+                margin: 0 3px;
+                cursor: pointer;
+            }
+
+            .timer-controls button:hover {
+                color: #4caf50; /* Survol avec couleur discrète */
+            }
+
+            #section-timer, #total-timer {
+                font-size: 12px; /* Police plus petite pour les timers */
+                color: #131313; /* Texte discret */
+            }
         </style>
+
+
         <div id="timer-footer">
+            <div class="timer-controls">
+                <button id="back-btn"><i class="ti-control-backward"></i></button>
+                <button id="play-pause-btn"><i class="ti-control-pause"></i></button>
+                <button id="skip-btn"><i class="ti-control-forward"></i></button>
+            </div>
             <span id="section-timer"></span>
             <div class="progress-container">
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
             <span id="total-timer"></span>
         </div>
+
     </div>
 
 </body>
