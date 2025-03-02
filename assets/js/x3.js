@@ -135,16 +135,4 @@ function backSection() {
     }
 }
 
-// Initialisation
-document.addEventListener("DOMContentLoaded", () => {
-    goToSection(0);
-    updateTimers();
-    startTimers();
 
-    // Écouteurs d'événements pour les boutons
-    playPauseBtn.addEventListener("click", togglePlayPause);
-    skipBtn.addEventListener("click", skipSection);
-    backBtn.addEventListener("click", backSection);
-
-    playPauseBtn.click();
-});
