@@ -1,6 +1,6 @@
 /* Fichier pour donner le resultat d'un cryptage et d'un decryptage */
 
-let keyvalue = ""
+let keyvalue = "ufhEWKbts#==xy#.]EL'Z!.v}1F7&Mi+%JN}@TIJDH{HZQ@8+6"
 
 function encrypted(decrypted, secretKey) {
     try {
@@ -18,7 +18,8 @@ function decrypted(encrypt, secretKey) {
 }
 
 let listeTexte = [
-    "Contrat de travail",
+    "Étude Biblique | A l'étranger",
+    "Étude de la Bible et de la philosophie",
 ]
 
 for (i of listeTexte){
